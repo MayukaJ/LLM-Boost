@@ -1,0 +1,10 @@
+python xgb_tabpfn.py --data_id 31 #credit-g
+python xgb_tabpfn.py --data_id 54 #vehicle
+python xgb_tabpfn.py --data_id 973 #wine
+python xgb_tabpfn.py --data_id 1464 #blood-transfusion
+python xgb_tabpfn.py --data_id 40981 #Australian
+python xgb_tabpfn.py --data_id  1461 #bank-marketing
+python xgb_tabpfn.py --data_id 1590 #adult
+python xgb_tabpfn.py --data_id 41027 #jungle_chess_2pcs
+python xgb_tabpfn.py --data_id 1169 #airlines
+python xgb_tabpfn.py --data_id 40975 #car
