@@ -33,9 +33,9 @@ python lgbm_llm.py --data_path ./data/Adult_flan/ --train_size 20 --cv_folds 40
 full list of dataset inference commands are given in launch_lgbm_llm.sh
 
 ## TabPFN+XGB Experiments
-For TabPFN experiments use the following There is no need for LLM inference for these experiments,
+For TabPFN experiments use the following. There is no need for LLM inference for these experiments. 1590 here is the OpenML ID for the adult dataset. Feel free to use any OpenML dataset.
 ```shell
-python xgb_tabpfn.py --data_path ./data/Adult/prototypes-synthetic-performance-0/ --train_size 20 --cv_folds 40
+python xgb_tabpfn.py --data_id 1590
 ```
 full list of dataset inference commands are given in launch_xgb_tabpfn.sh
 \
