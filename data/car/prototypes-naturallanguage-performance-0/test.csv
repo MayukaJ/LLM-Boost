@@ -1,0 +1,347 @@
+,buying,maint,doors,persons,lug_boot,safety_dict,y_temp
+1382,low,vhigh,5more,2,med,high,Unacceptable
+1383,low,vhigh,5more,2,big,low,Unacceptable
+1384,low,vhigh,5more,2,big,med,Unacceptable
+1385,low,vhigh,5more,2,big,high,Unacceptable
+1386,low,vhigh,5more,4,small,low,Unacceptable
+1387,low,vhigh,5more,4,small,med,Unacceptable
+1388,low,vhigh,5more,4,small,high,Acceptable
+1389,low,vhigh,5more,4,med,low,Unacceptable
+1390,low,vhigh,5more,4,med,med,Acceptable
+1391,low,vhigh,5more,4,med,high,Acceptable
+1392,low,vhigh,5more,4,big,low,Unacceptable
+1393,low,vhigh,5more,4,big,med,Acceptable
+1394,low,vhigh,5more,4,big,high,Acceptable
+1395,low,vhigh,5more,more,small,low,Unacceptable
+1396,low,vhigh,5more,more,small,med,Unacceptable
+1397,low,vhigh,5more,more,small,high,Acceptable
+1398,low,vhigh,5more,more,med,low,Unacceptable
+1399,low,vhigh,5more,more,med,med,Acceptable
+1400,low,vhigh,5more,more,med,high,Acceptable
+1401,low,vhigh,5more,more,big,low,Unacceptable
+1402,low,vhigh,5more,more,big,med,Acceptable
+1403,low,vhigh,5more,more,big,high,Acceptable
+1404,low,high,2,2,small,low,Unacceptable
+1405,low,high,2,2,small,med,Unacceptable
+1406,low,high,2,2,small,high,Unacceptable
+1407,low,high,2,2,med,low,Unacceptable
+1408,low,high,2,2,med,med,Unacceptable
+1409,low,high,2,2,med,high,Unacceptable
+1410,low,high,2,2,big,low,Unacceptable
+1411,low,high,2,2,big,med,Unacceptable
+1412,low,high,2,2,big,high,Unacceptable
+1413,low,high,2,4,small,low,Unacceptable
+1414,low,high,2,4,small,med,Acceptable
+1415,low,high,2,4,small,high,Acceptable
+1416,low,high,2,4,med,low,Unacceptable
+1417,low,high,2,4,med,med,Acceptable
+1418,low,high,2,4,med,high,Acceptable
+1419,low,high,2,4,big,low,Unacceptable
+1420,low,high,2,4,big,med,Acceptable
+1421,low,high,2,4,big,high,Very good
+1422,low,high,2,more,small,low,Unacceptable
+1423,low,high,2,more,small,med,Unacceptable
+1424,low,high,2,more,small,high,Unacceptable
+1425,low,high,2,more,med,low,Unacceptable
+1426,low,high,2,more,med,med,Acceptable
+1427,low,high,2,more,med,high,Acceptable
+1428,low,high,2,more,big,low,Unacceptable
+1429,low,high,2,more,big,med,Acceptable
+1430,low,high,2,more,big,high,Very good
+1431,low,high,3,2,small,low,Unacceptable
+1432,low,high,3,2,small,med,Unacceptable
+1433,low,high,3,2,small,high,Unacceptable
+1434,low,high,3,2,med,low,Unacceptable
+1435,low,high,3,2,med,med,Unacceptable
+1436,low,high,3,2,med,high,Unacceptable
+1437,low,high,3,2,big,low,Unacceptable
+1438,low,high,3,2,big,med,Unacceptable
+1439,low,high,3,2,big,high,Unacceptable
+1440,low,high,3,4,small,low,Unacceptable
+1441,low,high,3,4,small,med,Acceptable
+1442,low,high,3,4,small,high,Acceptable
+1443,low,high,3,4,med,low,Unacceptable
+1444,low,high,3,4,med,med,Acceptable
+1445,low,high,3,4,med,high,Acceptable
+1446,low,high,3,4,big,low,Unacceptable
+1447,low,high,3,4,big,med,Acceptable
+1448,low,high,3,4,big,high,Very good
+1449,low,high,3,more,small,low,Unacceptable
+1450,low,high,3,more,small,med,Acceptable
+1451,low,high,3,more,small,high,Acceptable
+1452,low,high,3,more,med,low,Unacceptable
+1453,low,high,3,more,med,med,Acceptable
+1454,low,high,3,more,med,high,Very good
+1455,low,high,3,more,big,low,Unacceptable
+1456,low,high,3,more,big,med,Acceptable
+1457,low,high,3,more,big,high,Very good
+1458,low,high,4,2,small,low,Unacceptable
+1459,low,high,4,2,small,med,Unacceptable
+1460,low,high,4,2,small,high,Unacceptable
+1461,low,high,4,2,med,low,Unacceptable
+1462,low,high,4,2,med,med,Unacceptable
+1463,low,high,4,2,med,high,Unacceptable
+1464,low,high,4,2,big,low,Unacceptable
+1465,low,high,4,2,big,med,Unacceptable
+1466,low,high,4,2,big,high,Unacceptable
+1467,low,high,4,4,small,low,Unacceptable
+1468,low,high,4,4,small,med,Acceptable
+1469,low,high,4,4,small,high,Acceptable
+1470,low,high,4,4,med,low,Unacceptable
+1471,low,high,4,4,med,med,Acceptable
+1472,low,high,4,4,med,high,Very good
+1473,low,high,4,4,big,low,Unacceptable
+1474,low,high,4,4,big,med,Acceptable
+1475,low,high,4,4,big,high,Very good
+1476,low,high,4,more,small,low,Unacceptable
+1477,low,high,4,more,small,med,Acceptable
+1478,low,high,4,more,small,high,Acceptable
+1479,low,high,4,more,med,low,Unacceptable
+1480,low,high,4,more,med,med,Acceptable
+1481,low,high,4,more,med,high,Very good
+1482,low,high,4,more,big,low,Unacceptable
+1483,low,high,4,more,big,med,Acceptable
+1484,low,high,4,more,big,high,Very good
+1485,low,high,5more,2,small,low,Unacceptable
+1486,low,high,5more,2,small,med,Unacceptable
+1487,low,high,5more,2,small,high,Unacceptable
+1488,low,high,5more,2,med,low,Unacceptable
+1489,low,high,5more,2,med,med,Unacceptable
+1490,low,high,5more,2,med,high,Unacceptable
+1491,low,high,5more,2,big,low,Unacceptable
+1492,low,high,5more,2,big,med,Unacceptable
+1493,low,high,5more,2,big,high,Unacceptable
+1494,low,high,5more,4,small,low,Unacceptable
+1495,low,high,5more,4,small,med,Acceptable
+1496,low,high,5more,4,small,high,Acceptable
+1497,low,high,5more,4,med,low,Unacceptable
+1498,low,high,5more,4,med,med,Acceptable
+1499,low,high,5more,4,med,high,Very good
+1500,low,high,5more,4,big,low,Unacceptable
+1501,low,high,5more,4,big,med,Acceptable
+1502,low,high,5more,4,big,high,Very good
+1503,low,high,5more,more,small,low,Unacceptable
+1504,low,high,5more,more,small,med,Acceptable
+1505,low,high,5more,more,small,high,Acceptable
+1506,low,high,5more,more,med,low,Unacceptable
+1507,low,high,5more,more,med,med,Acceptable
+1508,low,high,5more,more,med,high,Very good
+1509,low,high,5more,more,big,low,Unacceptable
+1510,low,high,5more,more,big,med,Acceptable
+1511,low,high,5more,more,big,high,Very good
+1512,low,med,2,2,small,low,Unacceptable
+1513,low,med,2,2,small,med,Unacceptable
+1514,low,med,2,2,small,high,Unacceptable
+1515,low,med,2,2,med,low,Unacceptable
+1516,low,med,2,2,med,med,Unacceptable
+1517,low,med,2,2,med,high,Unacceptable
+1518,low,med,2,2,big,low,Unacceptable
+1519,low,med,2,2,big,med,Unacceptable
+1520,low,med,2,2,big,high,Unacceptable
+1521,low,med,2,4,small,low,Unacceptable
+1522,low,med,2,4,small,med,Acceptable
+1523,low,med,2,4,small,high,Good
+1524,low,med,2,4,med,low,Unacceptable
+1525,low,med,2,4,med,med,Acceptable
+1526,low,med,2,4,med,high,Good
+1527,low,med,2,4,big,low,Unacceptable
+1528,low,med,2,4,big,med,Good
+1529,low,med,2,4,big,high,Very good
+1530,low,med,2,more,small,low,Unacceptable
+1531,low,med,2,more,small,med,Unacceptable
+1532,low,med,2,more,small,high,Unacceptable
+1533,low,med,2,more,med,low,Unacceptable
+1534,low,med,2,more,med,med,Acceptable
+1535,low,med,2,more,med,high,Good
+1536,low,med,2,more,big,low,Unacceptable
+1537,low,med,2,more,big,med,Good
+1538,low,med,2,more,big,high,Very good
+1539,low,med,3,2,small,low,Unacceptable
+1540,low,med,3,2,small,med,Unacceptable
+1541,low,med,3,2,small,high,Unacceptable
+1542,low,med,3,2,med,low,Unacceptable
+1543,low,med,3,2,med,med,Unacceptable
+1544,low,med,3,2,med,high,Unacceptable
+1545,low,med,3,2,big,low,Unacceptable
+1546,low,med,3,2,big,med,Unacceptable
+1547,low,med,3,2,big,high,Unacceptable
+1548,low,med,3,4,small,low,Unacceptable
+1549,low,med,3,4,small,med,Acceptable
+1550,low,med,3,4,small,high,Good
+1551,low,med,3,4,med,low,Unacceptable
+1552,low,med,3,4,med,med,Acceptable
+1553,low,med,3,4,med,high,Good
+1554,low,med,3,4,big,low,Unacceptable
+1555,low,med,3,4,big,med,Good
+1556,low,med,3,4,big,high,Very good
+1557,low,med,3,more,small,low,Unacceptable
+1558,low,med,3,more,small,med,Acceptable
+1559,low,med,3,more,small,high,Good
+1560,low,med,3,more,med,low,Unacceptable
+1561,low,med,3,more,med,med,Good
+1562,low,med,3,more,med,high,Very good
+1563,low,med,3,more,big,low,Unacceptable
+1564,low,med,3,more,big,med,Good
+1565,low,med,3,more,big,high,Very good
+1566,low,med,4,2,small,low,Unacceptable
+1567,low,med,4,2,small,med,Unacceptable
+1568,low,med,4,2,small,high,Unacceptable
+1569,low,med,4,2,med,low,Unacceptable
+1570,low,med,4,2,med,med,Unacceptable
+1571,low,med,4,2,med,high,Unacceptable
+1572,low,med,4,2,big,low,Unacceptable
+1573,low,med,4,2,big,med,Unacceptable
+1574,low,med,4,2,big,high,Unacceptable
+1575,low,med,4,4,small,low,Unacceptable
+1576,low,med,4,4,small,med,Acceptable
+1577,low,med,4,4,small,high,Good
+1578,low,med,4,4,med,low,Unacceptable
+1579,low,med,4,4,med,med,Good
+1580,low,med,4,4,med,high,Very good
+1581,low,med,4,4,big,low,Unacceptable
+1582,low,med,4,4,big,med,Good
+1583,low,med,4,4,big,high,Very good
+1584,low,med,4,more,small,low,Unacceptable
+1585,low,med,4,more,small,med,Acceptable
+1586,low,med,4,more,small,high,Good
+1587,low,med,4,more,med,low,Unacceptable
+1588,low,med,4,more,med,med,Good
+1589,low,med,4,more,med,high,Very good
+1590,low,med,4,more,big,low,Unacceptable
+1591,low,med,4,more,big,med,Good
+1592,low,med,4,more,big,high,Very good
+1593,low,med,5more,2,small,low,Unacceptable
+1594,low,med,5more,2,small,med,Unacceptable
+1595,low,med,5more,2,small,high,Unacceptable
+1596,low,med,5more,2,med,low,Unacceptable
+1597,low,med,5more,2,med,med,Unacceptable
+1598,low,med,5more,2,med,high,Unacceptable
+1599,low,med,5more,2,big,low,Unacceptable
+1600,low,med,5more,2,big,med,Unacceptable
+1601,low,med,5more,2,big,high,Unacceptable
+1602,low,med,5more,4,small,low,Unacceptable
+1603,low,med,5more,4,small,med,Acceptable
+1604,low,med,5more,4,small,high,Good
+1605,low,med,5more,4,med,low,Unacceptable
+1606,low,med,5more,4,med,med,Good
+1607,low,med,5more,4,med,high,Very good
+1608,low,med,5more,4,big,low,Unacceptable
+1609,low,med,5more,4,big,med,Good
+1610,low,med,5more,4,big,high,Very good
+1611,low,med,5more,more,small,low,Unacceptable
+1612,low,med,5more,more,small,med,Acceptable
+1613,low,med,5more,more,small,high,Good
+1614,low,med,5more,more,med,low,Unacceptable
+1615,low,med,5more,more,med,med,Good
+1616,low,med,5more,more,med,high,Very good
+1617,low,med,5more,more,big,low,Unacceptable
+1618,low,med,5more,more,big,med,Good
+1619,low,med,5more,more,big,high,Very good
+1620,low,low,2,2,small,low,Unacceptable
+1621,low,low,2,2,small,med,Unacceptable
+1622,low,low,2,2,small,high,Unacceptable
+1623,low,low,2,2,med,low,Unacceptable
+1624,low,low,2,2,med,med,Unacceptable
+1625,low,low,2,2,med,high,Unacceptable
+1626,low,low,2,2,big,low,Unacceptable
+1627,low,low,2,2,big,med,Unacceptable
+1628,low,low,2,2,big,high,Unacceptable
+1629,low,low,2,4,small,low,Unacceptable
+1630,low,low,2,4,small,med,Acceptable
+1631,low,low,2,4,small,high,Good
+1632,low,low,2,4,med,low,Unacceptable
+1633,low,low,2,4,med,med,Acceptable
+1634,low,low,2,4,med,high,Good
+1635,low,low,2,4,big,low,Unacceptable
+1636,low,low,2,4,big,med,Good
+1637,low,low,2,4,big,high,Very good
+1638,low,low,2,more,small,low,Unacceptable
+1639,low,low,2,more,small,med,Unacceptable
+1640,low,low,2,more,small,high,Unacceptable
+1641,low,low,2,more,med,low,Unacceptable
+1642,low,low,2,more,med,med,Acceptable
+1643,low,low,2,more,med,high,Good
+1644,low,low,2,more,big,low,Unacceptable
+1645,low,low,2,more,big,med,Good
+1646,low,low,2,more,big,high,Very good
+1647,low,low,3,2,small,low,Unacceptable
+1648,low,low,3,2,small,med,Unacceptable
+1649,low,low,3,2,small,high,Unacceptable
+1650,low,low,3,2,med,low,Unacceptable
+1651,low,low,3,2,med,med,Unacceptable
+1652,low,low,3,2,med,high,Unacceptable
+1653,low,low,3,2,big,low,Unacceptable
+1654,low,low,3,2,big,med,Unacceptable
+1655,low,low,3,2,big,high,Unacceptable
+1656,low,low,3,4,small,low,Unacceptable
+1657,low,low,3,4,small,med,Acceptable
+1658,low,low,3,4,small,high,Good
+1659,low,low,3,4,med,low,Unacceptable
+1660,low,low,3,4,med,med,Acceptable
+1661,low,low,3,4,med,high,Good
+1662,low,low,3,4,big,low,Unacceptable
+1663,low,low,3,4,big,med,Good
+1664,low,low,3,4,big,high,Very good
+1665,low,low,3,more,small,low,Unacceptable
+1666,low,low,3,more,small,med,Acceptable
+1667,low,low,3,more,small,high,Good
+1668,low,low,3,more,med,low,Unacceptable
+1669,low,low,3,more,med,med,Good
+1670,low,low,3,more,med,high,Very good
+1671,low,low,3,more,big,low,Unacceptable
+1672,low,low,3,more,big,med,Good
+1673,low,low,3,more,big,high,Very good
+1674,low,low,4,2,small,low,Unacceptable
+1675,low,low,4,2,small,med,Unacceptable
+1676,low,low,4,2,small,high,Unacceptable
+1677,low,low,4,2,med,low,Unacceptable
+1678,low,low,4,2,med,med,Unacceptable
+1679,low,low,4,2,med,high,Unacceptable
+1680,low,low,4,2,big,low,Unacceptable
+1681,low,low,4,2,big,med,Unacceptable
+1682,low,low,4,2,big,high,Unacceptable
+1683,low,low,4,4,small,low,Unacceptable
+1684,low,low,4,4,small,med,Acceptable
+1685,low,low,4,4,small,high,Good
+1686,low,low,4,4,med,low,Unacceptable
+1687,low,low,4,4,med,med,Good
+1688,low,low,4,4,med,high,Very good
+1689,low,low,4,4,big,low,Unacceptable
+1690,low,low,4,4,big,med,Good
+1691,low,low,4,4,big,high,Very good
+1692,low,low,4,more,small,low,Unacceptable
+1693,low,low,4,more,small,med,Acceptable
+1694,low,low,4,more,small,high,Good
+1695,low,low,4,more,med,low,Unacceptable
+1696,low,low,4,more,med,med,Good
+1697,low,low,4,more,med,high,Very good
+1698,low,low,4,more,big,low,Unacceptable
+1699,low,low,4,more,big,med,Good
+1700,low,low,4,more,big,high,Very good
+1701,low,low,5more,2,small,low,Unacceptable
+1702,low,low,5more,2,small,med,Unacceptable
+1703,low,low,5more,2,small,high,Unacceptable
+1704,low,low,5more,2,med,low,Unacceptable
+1705,low,low,5more,2,med,med,Unacceptable
+1706,low,low,5more,2,med,high,Unacceptable
+1707,low,low,5more,2,big,low,Unacceptable
+1708,low,low,5more,2,big,med,Unacceptable
+1709,low,low,5more,2,big,high,Unacceptable
+1710,low,low,5more,4,small,low,Unacceptable
+1711,low,low,5more,4,small,med,Acceptable
+1712,low,low,5more,4,small,high,Good
+1713,low,low,5more,4,med,low,Unacceptable
+1714,low,low,5more,4,med,med,Good
+1715,low,low,5more,4,med,high,Very good
+1716,low,low,5more,4,big,low,Unacceptable
+1717,low,low,5more,4,big,med,Good
+1718,low,low,5more,4,big,high,Very good
+1719,low,low,5more,more,small,low,Unacceptable
+1720,low,low,5more,more,small,med,Acceptable
+1721,low,low,5more,more,small,high,Good
+1722,low,low,5more,more,med,low,Unacceptable
+1723,low,low,5more,more,med,med,Good
+1724,low,low,5more,more,med,high,Very good
+1725,low,low,5more,more,big,low,Unacceptable
+1726,low,low,5more,more,big,med,Good
+1727,low,low,5more,more,big,high,Very good

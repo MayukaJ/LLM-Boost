@@ -1,0 +1,1602 @@
+[
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 24\ncredit history: critical/other existing credit\npurpose: education\ncredit amount: 1597\nsavings status: <100\nemployment: >=7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: no known property\nage: 54\nother payment plans: none\nhousing: for free\nexisting credits: 2\njob: skilled\nnum dependents: 2\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 18\ncredit history: critical/other existing credit\npurpose: radio/tv\ncredit amount: 1795\nsavings status: <100\nemployment: >=7\ninstallment commitment: 3\npersonal status: female div/dep/mar\nother parties: guarantor\nresidence since: 4\nproperty magnitude: real estate\nage: 48\nother payment plans: bank\nhousing: rent\nexisting credits: 2\njob: unskilled resident\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 20\ncredit history: critical/other existing credit\npurpose: furniture/equipment\ncredit amount: 4272\nsavings status: <100\nemployment: >=7\ninstallment commitment: 1\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 4\nproperty magnitude: life insurance\nage: 24\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 12\ncredit history: critical/other existing credit\npurpose: radio/tv\ncredit amount: 976\nsavings status: no known savings\nemployment: >=7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: car\nage: 35\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 12\ncredit history: existing paid\npurpose: new car\ncredit amount: 7472\nsavings status: no known savings\nemployment: unemployed\ninstallment commitment: 1\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 2\nproperty magnitude: real estate\nage: 24\nother payment plans: none\nhousing: rent\nexisting credits: 1\njob: unemp/unskilled non res\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 36\ncredit history: existing paid\npurpose: new car\ncredit amount: 9271\nsavings status: <100\nemployment: 4<=X<7\ninstallment commitment: 2\npersonal status: male single\nother parties: none\nresidence since: 1\nproperty magnitude: car\nage: 24\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 6\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 590\nsavings status: <100\nemployment: <1\ninstallment commitment: 3\npersonal status: male mar/wid\nother parties: none\nresidence since: 3\nproperty magnitude: real estate\nage: 26\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: unskilled resident\nnum dependents: 1\nown telephone: none\nforeign worker: no\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 12\ncredit history: critical/other existing credit\npurpose: radio/tv\ncredit amount: 930\nsavings status: no known savings\nemployment: >=7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: real estate\nage: 65\nother payment plans: none\nhousing: own\nexisting credits: 4\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 42\ncredit history: all paid\npurpose: used car\ncredit amount: 9283\nsavings status: <100\nemployment: unemployed\ninstallment commitment: 1\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: no known property\nage: 55\nother payment plans: bank\nhousing: for free\nexisting credits: 1\njob: high qualif/self emp/mgmt\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: 0<=X<200\nduration: 15\ncredit history: no credits/all paid\npurpose: new car\ncredit amount: 1778\nsavings status: <100\nemployment: <1\ninstallment commitment: 2\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 1\nproperty magnitude: real estate\nage: 26\nother payment plans: none\nhousing: rent\nexisting credits: 2\njob: unemp/unskilled non res\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 8\ncredit history: existing paid\npurpose: business\ncredit amount: 907\nsavings status: <100\nemployment: <1\ninstallment commitment: 3\npersonal status: male mar/wid\nother parties: none\nresidence since: 2\nproperty magnitude: real estate\nage: 26\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 6\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 484\nsavings status: <100\nemployment: 4<=X<7\ninstallment commitment: 3\npersonal status: male mar/wid\nother parties: guarantor\nresidence since: 3\nproperty magnitude: real estate\nage: 28\nother payment plans: bank\nhousing: own\nexisting credits: 1\njob: unskilled resident\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 36\ncredit history: critical/other existing credit\npurpose: used car\ncredit amount: 9629\nsavings status: <100\nemployment: 4<=X<7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: car\nage: 24\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 48\ncredit history: existing paid\npurpose: domestic appliance\ncredit amount: 3051\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 3\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: car\nage: 54\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 48\ncredit history: existing paid\npurpose: new car\ncredit amount: 3931\nsavings status: <100\nemployment: 4<=X<7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: no known property\nage: 46\nother payment plans: none\nhousing: for free\nexisting credits: 1\njob: skilled\nnum dependents: 2\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 36\ncredit history: delayed previously\npurpose: new car\ncredit amount: 7432\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 2\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 2\nproperty magnitude: life insurance\nage: 54\nother payment plans: none\nhousing: rent\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 6\ncredit history: existing paid\npurpose: domestic appliance\ncredit amount: 1338\nsavings status: 500<=X<1000\nemployment: 1<=X<4\ninstallment commitment: 1\npersonal status: male div/sep\nother parties: none\nresidence since: 4\nproperty magnitude: real estate\nage: 62\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 6\ncredit history: critical/other existing credit\npurpose: radio/tv\ncredit amount: 1554\nsavings status: <100\nemployment: 4<=X<7\ninstallment commitment: 1\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 2\nproperty magnitude: car\nage: 24\nother payment plans: none\nhousing: rent\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 36\ncredit history: existing paid\npurpose: other\ncredit amount: 15857\nsavings status: <100\nemployment: unemployed\ninstallment commitment: 2\npersonal status: male div/sep\nother parties: co applicant\nresidence since: 3\nproperty magnitude: car\nage: 43\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: high qualif/self emp/mgmt\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 18\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 1345\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: male mar/wid\nother parties: none\nresidence since: 3\nproperty magnitude: real estate\nage: 26\nother payment plans: bank\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 12\ncredit history: existing paid\npurpose: new car\ncredit amount: 1101\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 3\npersonal status: male mar/wid\nother parties: none\nresidence since: 2\nproperty magnitude: real estate\nage: 27\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: >=200\nduration: 12\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 3016\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 3\npersonal status: male mar/wid\nother parties: none\nresidence since: 1\nproperty magnitude: car\nage: 24\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 36\ncredit history: existing paid\npurpose: furniture/equipment\ncredit amount: 2712\nsavings status: <100\nemployment: >=7\ninstallment commitment: 2\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: life insurance\nage: 41\nother payment plans: bank\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 2\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 8\ncredit history: critical/other existing credit\npurpose: new car\ncredit amount: 731\nsavings status: <100\nemployment: >=7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: real estate\nage: 47\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: unskilled resident\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 18\ncredit history: critical/other existing credit\npurpose: furniture/equipment\ncredit amount: 3780\nsavings status: <100\nemployment: <1\ninstallment commitment: 3\npersonal status: male div/sep\nother parties: none\nresidence since: 2\nproperty magnitude: car\nage: 35\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: high qualif/self emp/mgmt\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 21\ncredit history: critical/other existing credit\npurpose: new car\ncredit amount: 1602\nsavings status: <100\nemployment: >=7\ninstallment commitment: 4\npersonal status: male mar/wid\nother parties: none\nresidence since: 3\nproperty magnitude: car\nage: 30\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 18\ncredit history: critical/other existing credit\npurpose: new car\ncredit amount: 3966\nsavings status: <100\nemployment: >=7\ninstallment commitment: 1\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 4\nproperty magnitude: real estate\nage: 33\nother payment plans: bank\nhousing: rent\nexisting credits: 3\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: no checking\nduration: 18\ncredit history: no credits/all paid\npurpose: business\ncredit amount: 4165\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 2\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: car\nage: 36\nother payment plans: stores\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 2\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 36\ncredit history: existing paid\npurpose: used car\ncredit amount: 8335\nsavings status: no known savings\nemployment: >=7\ninstallment commitment: 3\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: no known property\nage: 47\nother payment plans: none\nhousing: for free\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 48\ncredit history: delayed previously\npurpose: business\ncredit amount: 6681\nsavings status: no known savings\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: no known property\nage: 38\nother payment plans: none\nhousing: for free\nexisting credits: 1\njob: skilled\nnum dependents: 2\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 24\ncredit history: delayed previously\npurpose: business\ncredit amount: 2375\nsavings status: 500<=X<1000\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: car\nage: 44\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 2\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 18\ncredit history: existing paid\npurpose: new car\ncredit amount: 1216\nsavings status: <100\nemployment: <1\ninstallment commitment: 4\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 3\nproperty magnitude: car\nage: 23\nother payment plans: none\nhousing: rent\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 45\ncredit history: no credits/all paid\npurpose: business\ncredit amount: 11816\nsavings status: <100\nemployment: >=7\ninstallment commitment: 2\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: car\nage: 29\nother payment plans: none\nhousing: rent\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 24\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 5084\nsavings status: no known savings\nemployment: >=7\ninstallment commitment: 2\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 4\nproperty magnitude: car\nage: 42\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: >=200\nduration: 15\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 2327\nsavings status: <100\nemployment: <1\ninstallment commitment: 2\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 3\nproperty magnitude: real estate\nage: 25\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: unskilled resident\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 12\ncredit history: no credits/all paid\npurpose: new car\ncredit amount: 1082\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: car\nage: 48\nother payment plans: bank\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 12\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 886\nsavings status: no known savings\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 2\nproperty magnitude: car\nage: 21\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 4\ncredit history: existing paid\npurpose: furniture/equipment\ncredit amount: 601\nsavings status: <100\nemployment: <1\ninstallment commitment: 1\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 3\nproperty magnitude: real estate\nage: 23\nother payment plans: none\nhousing: rent\nexisting credits: 1\njob: unskilled resident\nnum dependents: 2\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 24\ncredit history: critical/other existing credit\npurpose: used car\ncredit amount: 2957\nsavings status: <100\nemployment: >=7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: life insurance\nage: 63\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 24\ncredit history: critical/other existing credit\npurpose: radio/tv\ncredit amount: 2611\nsavings status: <100\nemployment: >=7\ninstallment commitment: 4\npersonal status: male mar/wid\nother parties: co applicant\nresidence since: 3\nproperty magnitude: real estate\nage: 46\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 36\ncredit history: existing paid\npurpose: furniture/equipment\ncredit amount: 5179\nsavings status: <100\nemployment: 4<=X<7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: life insurance\nage: 29\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 21\ncredit history: delayed previously\npurpose: used car\ncredit amount: 2993\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 3\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: real estate\nage: 28\nother payment plans: stores\nhousing: own\nexisting credits: 2\njob: unskilled resident\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: no checking\nduration: 18\ncredit history: existing paid\npurpose: repairs\ncredit amount: 1943\nsavings status: <100\nemployment: <1\ninstallment commitment: 4\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 4\nproperty magnitude: real estate\nage: 23\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 24\ncredit history: all paid\npurpose: business\ncredit amount: 1559\nsavings status: <100\nemployment: 4<=X<7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: car\nage: 50\nother payment plans: bank\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 18\ncredit history: existing paid\npurpose: furniture/equipment\ncredit amount: 3422\nsavings status: <100\nemployment: >=7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: life insurance\nage: 47\nother payment plans: bank\nhousing: own\nexisting credits: 3\njob: skilled\nnum dependents: 2\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 21\ncredit history: existing paid\npurpose: furniture/equipment\ncredit amount: 3976\nsavings status: no known savings\nemployment: 4<=X<7\ninstallment commitment: 2\npersonal status: male single\nother parties: none\nresidence since: 3\nproperty magnitude: car\nage: 35\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: no checking\nduration: 18\ncredit history: existing paid\npurpose: new car\ncredit amount: 6761\nsavings status: no known savings\nemployment: 1<=X<4\ninstallment commitment: 2\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: car\nage: 68\nother payment plans: none\nhousing: rent\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 24\ncredit history: existing paid\npurpose: new car\ncredit amount: 1249\nsavings status: <100\nemployment: <1\ninstallment commitment: 4\npersonal status: male mar/wid\nother parties: none\nresidence since: 2\nproperty magnitude: real estate\nage: 28\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 9\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 1364\nsavings status: <100\nemployment: 4<=X<7\ninstallment commitment: 3\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: real estate\nage: 59\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 12\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 709\nsavings status: <100\nemployment: >=7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: real estate\nage: 57\nother payment plans: stores\nhousing: own\nexisting credits: 1\njob: unskilled resident\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 20\ncredit history: critical/other existing credit\npurpose: new car\ncredit amount: 2235\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: male mar/wid\nother parties: guarantor\nresidence since: 2\nproperty magnitude: life insurance\nage: 33\nother payment plans: bank\nhousing: rent\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: no\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 24\ncredit history: critical/other existing credit\npurpose: used car\ncredit amount: 4042\nsavings status: no known savings\nemployment: 4<=X<7\ninstallment commitment: 3\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: life insurance\nage: 43\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 15\ncredit history: critical/other existing credit\npurpose: radio/tv\ncredit amount: 1471\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: no known property\nage: 35\nother payment plans: none\nhousing: for free\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 18\ncredit history: all paid\npurpose: new car\ncredit amount: 1442\nsavings status: <100\nemployment: 4<=X<7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: no known property\nage: 32\nother payment plans: none\nhousing: for free\nexisting credits: 2\njob: unskilled resident\nnum dependents: 2\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 36\ncredit history: delayed previously\npurpose: new car\ncredit amount: 10875\nsavings status: <100\nemployment: >=7\ninstallment commitment: 2\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: car\nage: 45\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 2\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 24\ncredit history: existing paid\npurpose: new car\ncredit amount: 1474\nsavings status: 100<=X<500\nemployment: <1\ninstallment commitment: 4\npersonal status: male mar/wid\nother parties: none\nresidence since: 3\nproperty magnitude: real estate\nage: 33\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 10\ncredit history: existing paid\npurpose: retraining\ncredit amount: 894\nsavings status: no known savings\nemployment: 4<=X<7\ninstallment commitment: 4\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 3\nproperty magnitude: life insurance\nage: 40\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 15\ncredit history: critical/other existing credit\npurpose: furniture/equipment\ncredit amount: 3343\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: no known property\nage: 28\nother payment plans: none\nhousing: for free\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 15\ncredit history: existing paid\npurpose: new car\ncredit amount: 3959\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 3\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 2\nproperty magnitude: life insurance\nage: 29\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 9\ncredit history: existing paid\npurpose: new car\ncredit amount: 3577\nsavings status: 100<=X<500\nemployment: 1<=X<4\ninstallment commitment: 1\npersonal status: male single\nother parties: guarantor\nresidence since: 2\nproperty magnitude: real estate\nage: 26\nother payment plans: none\nhousing: rent\nexisting credits: 1\njob: skilled\nnum dependents: 2\nown telephone: none\nforeign worker: no\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 24\ncredit history: critical/other existing credit\npurpose: used car\ncredit amount: 5804\nsavings status: >=1000\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: real estate\nage: 27\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: no checking\nduration: 18\ncredit history: delayed previously\npurpose: business\ncredit amount: 2169\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: male mar/wid\nother parties: none\nresidence since: 2\nproperty magnitude: car\nage: 28\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 24\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 2439\nsavings status: <100\nemployment: <1\ninstallment commitment: 4\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 4\nproperty magnitude: real estate\nage: 35\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 27\ncredit history: critical/other existing credit\npurpose: furniture/equipment\ncredit amount: 4526\nsavings status: >=1000\nemployment: <1\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: real estate\nage: 32\nother payment plans: stores\nhousing: own\nexisting credits: 2\njob: unskilled resident\nnum dependents: 2\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: no checking\nduration: 10\ncredit history: existing paid\npurpose: furniture/equipment\ncredit amount: 2210\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 2\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: real estate\nage: 25\nother payment plans: bank\nhousing: rent\nexisting credits: 1\njob: unskilled resident\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 15\ncredit history: existing paid\npurpose: furniture/equipment\ncredit amount: 2221\nsavings status: 500<=X<1000\nemployment: 1<=X<4\ninstallment commitment: 2\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 4\nproperty magnitude: car\nage: 20\nother payment plans: none\nhousing: rent\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 18\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 2389\nsavings status: <100\nemployment: <1\ninstallment commitment: 4\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 1\nproperty magnitude: car\nage: 27\nother payment plans: stores\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 12\ncredit history: critical/other existing credit\npurpose: furniture/equipment\ncredit amount: 3331\nsavings status: <100\nemployment: >=7\ninstallment commitment: 2\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: life insurance\nage: 42\nother payment plans: stores\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 36\ncredit history: existing paid\npurpose: business\ncredit amount: 7409\nsavings status: no known savings\nemployment: >=7\ninstallment commitment: 3\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: life insurance\nage: 37\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 12\ncredit history: existing paid\npurpose: furniture/equipment\ncredit amount: 652\nsavings status: <100\nemployment: >=7\ninstallment commitment: 4\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 4\nproperty magnitude: life insurance\nage: 24\nother payment plans: none\nhousing: rent\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 36\ncredit history: delayed previously\npurpose: furniture/equipment\ncredit amount: 7678\nsavings status: 500<=X<1000\nemployment: 4<=X<7\ninstallment commitment: 2\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 4\nproperty magnitude: car\nage: 40\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: >=200\nduration: 6\ncredit history: critical/other existing credit\npurpose: new car\ncredit amount: 1343\nsavings status: <100\nemployment: >=7\ninstallment commitment: 1\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: real estate\nage: 46\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 2\nown telephone: none\nforeign worker: no\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 24\ncredit history: critical/other existing credit\npurpose: business\ncredit amount: 1382\nsavings status: 100<=X<500\nemployment: 4<=X<7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 1\nproperty magnitude: real estate\nage: 26\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 15\ncredit history: existing paid\npurpose: domestic appliance\ncredit amount: 874\nsavings status: no known savings\nemployment: <1\ninstallment commitment: 4\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 1\nproperty magnitude: real estate\nage: 24\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 12\ncredit history: existing paid\npurpose: furniture/equipment\ncredit amount: 3590\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 2\npersonal status: male single\nother parties: co applicant\nresidence since: 2\nproperty magnitude: life insurance\nage: 29\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: unskilled resident\nnum dependents: 2\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 11\ncredit history: critical/other existing credit\npurpose: new car\ncredit amount: 1322\nsavings status: >=1000\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 4\nproperty magnitude: car\nage: 40\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 18\ncredit history: all paid\npurpose: radio/tv\ncredit amount: 1940\nsavings status: <100\nemployment: <1\ninstallment commitment: 3\npersonal status: male single\nother parties: co applicant\nresidence since: 4\nproperty magnitude: no known property\nage: 36\nother payment plans: bank\nhousing: for free\nexisting credits: 1\njob: high qualif/self emp/mgmt\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 36\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 3595\nsavings status: <100\nemployment: >=7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: car\nage: 28\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 9\ncredit history: existing paid\npurpose: new car\ncredit amount: 1422\nsavings status: <100\nemployment: <1\ninstallment commitment: 3\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: no known property\nage: 27\nother payment plans: none\nhousing: for free\nexisting credits: 1\njob: high qualif/self emp/mgmt\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 30\ncredit history: critical/other existing credit\npurpose: radio/tv\ncredit amount: 6742\nsavings status: no known savings\nemployment: 4<=X<7\ninstallment commitment: 2\npersonal status: male single\nother parties: none\nresidence since: 3\nproperty magnitude: life insurance\nage: 36\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 24\ncredit history: existing paid\npurpose: used car\ncredit amount: 7814\nsavings status: <100\nemployment: 4<=X<7\ninstallment commitment: 3\npersonal status: male single\nother parties: none\nresidence since: 3\nproperty magnitude: car\nage: 38\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: high qualif/self emp/mgmt\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 24\ncredit history: existing paid\npurpose: used car\ncredit amount: 9277\nsavings status: no known savings\nemployment: 1<=X<4\ninstallment commitment: 2\npersonal status: male div/sep\nother parties: none\nresidence since: 4\nproperty magnitude: no known property\nage: 48\nother payment plans: none\nhousing: for free\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 30\ncredit history: critical/other existing credit\npurpose: new car\ncredit amount: 2181\nsavings status: no known savings\nemployment: >=7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: real estate\nage: 36\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 18\ncredit history: critical/other existing credit\npurpose: radio/tv\ncredit amount: 1098\nsavings status: <100\nemployment: unemployed\ninstallment commitment: 4\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 4\nproperty magnitude: car\nage: 65\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: unemp/unskilled non res\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: 0<=X<200\nduration: 24\ncredit history: existing paid\npurpose: furniture/equipment\ncredit amount: 4057\nsavings status: <100\nemployment: 4<=X<7\ninstallment commitment: 3\npersonal status: male div/sep\nother parties: none\nresidence since: 3\nproperty magnitude: car\nage: 43\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 12\ncredit history: existing paid\npurpose: education\ncredit amount: 795\nsavings status: <100\nemployment: <1\ninstallment commitment: 4\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 4\nproperty magnitude: life insurance\nage: 53\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 24\ncredit history: critical/other existing credit\npurpose: business\ncredit amount: 2825\nsavings status: no known savings\nemployment: 4<=X<7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 3\nproperty magnitude: no known property\nage: 34\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 2\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: 0<=X<200\nduration: 48\ncredit history: existing paid\npurpose: business\ncredit amount: 15672\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 2\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: car\nage: 23\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 36\ncredit history: critical/other existing credit\npurpose: new car\ncredit amount: 6614\nsavings status: <100\nemployment: >=7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: car\nage: 34\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: high qualif/self emp/mgmt\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 28\ncredit history: all paid\npurpose: used car\ncredit amount: 7824\nsavings status: no known savings\nemployment: <1\ninstallment commitment: 3\npersonal status: male single\nother parties: guarantor\nresidence since: 4\nproperty magnitude: real estate\nage: 40\nother payment plans: bank\nhousing: rent\nexisting credits: 2\njob: skilled\nnum dependents: 2\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 27\ncredit history: critical/other existing credit\npurpose: business\ncredit amount: 2442\nsavings status: <100\nemployment: >=7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: car\nage: 43\nother payment plans: stores\nhousing: own\nexisting credits: 4\njob: high qualif/self emp/mgmt\nnum dependents: 2\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 15\ncredit history: critical/other existing credit\npurpose: radio/tv\ncredit amount: 1829\nsavings status: <100\nemployment: >=7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: car\nage: 46\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 12\ncredit history: critical/other existing credit\npurpose: new car\ncredit amount: 2171\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: life insurance\nage: 38\nother payment plans: bank\nhousing: own\nexisting credits: 2\njob: unskilled resident\nnum dependents: 1\nown telephone: none\nforeign worker: no\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 36\ncredit history: critical/other existing credit\npurpose: used car\ncredit amount: 5800\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 3\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: car\nage: 34\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 18\ncredit history: critical/other existing credit\npurpose: radio/tv\ncredit amount: 1169\nsavings status: no known savings\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 3\nproperty magnitude: life insurance\nage: 29\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 36\ncredit history: delayed previously\npurpose: used car\ncredit amount: 8947\nsavings status: no known savings\nemployment: 4<=X<7\ninstallment commitment: 3\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: car\nage: 31\nother payment plans: stores\nhousing: own\nexisting credits: 1\njob: high qualif/self emp/mgmt\nnum dependents: 2\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 21\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 2606\nsavings status: <100\nemployment: <1\ninstallment commitment: 4\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 4\nproperty magnitude: life insurance\nage: 28\nother payment plans: none\nhousing: rent\nexisting credits: 1\njob: high qualif/self emp/mgmt\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 12\ncredit history: critical/other existing credit\npurpose: furniture/equipment\ncredit amount: 1592\nsavings status: >=1000\nemployment: 4<=X<7\ninstallment commitment: 3\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 2\nproperty magnitude: life insurance\nage: 35\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: no\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 15\ncredit history: existing paid\npurpose: furniture/equipment\ncredit amount: 2186\nsavings status: no known savings\nemployment: 4<=X<7\ninstallment commitment: 1\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 4\nproperty magnitude: real estate\nage: 33\nother payment plans: bank\nhousing: rent\nexisting credits: 1\njob: unskilled resident\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 18\ncredit history: existing paid\npurpose: furniture/equipment\ncredit amount: 4153\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 2\npersonal status: male single\nother parties: co applicant\nresidence since: 3\nproperty magnitude: car\nage: 42\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 16\ncredit history: critical/other existing credit\npurpose: new car\ncredit amount: 2625\nsavings status: <100\nemployment: >=7\ninstallment commitment: 2\npersonal status: male single\nother parties: guarantor\nresidence since: 4\nproperty magnitude: life insurance\nage: 43\nother payment plans: bank\nhousing: rent\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 20\ncredit history: critical/other existing credit\npurpose: new car\ncredit amount: 3485\nsavings status: no known savings\nemployment: <1\ninstallment commitment: 2\npersonal status: male div/sep\nother parties: none\nresidence since: 4\nproperty magnitude: real estate\nage: 44\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 36\ncredit history: critical/other existing credit\npurpose: used car\ncredit amount: 10477\nsavings status: no known savings\nemployment: >=7\ninstallment commitment: 2\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: no known property\nage: 42\nother payment plans: none\nhousing: for free\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 15\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 1386\nsavings status: no known savings\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: male mar/wid\nother parties: none\nresidence since: 2\nproperty magnitude: real estate\nage: 40\nother payment plans: none\nhousing: rent\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 24\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 1278\nsavings status: <100\nemployment: >=7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 1\nproperty magnitude: real estate\nage: 36\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: high qualif/self emp/mgmt\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 12\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 1107\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 2\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: real estate\nage: 20\nother payment plans: none\nhousing: rent\nexisting credits: 1\njob: high qualif/self emp/mgmt\nnum dependents: 2\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 21\ncredit history: existing paid\npurpose: new car\ncredit amount: 3763\nsavings status: no known savings\nemployment: 4<=X<7\ninstallment commitment: 2\npersonal status: male single\nother parties: co applicant\nresidence since: 2\nproperty magnitude: real estate\nage: 24\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: unskilled resident\nnum dependents: 1\nown telephone: none\nforeign worker: no\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 36\ncredit history: existing paid\npurpose: education\ncredit amount: 3711\nsavings status: no known savings\nemployment: 1<=X<4\ninstallment commitment: 2\npersonal status: male mar/wid\nother parties: none\nresidence since: 2\nproperty magnitude: car\nage: 27\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 15\ncredit history: delayed previously\npurpose: used car\ncredit amount: 3594\nsavings status: <100\nemployment: <1\ninstallment commitment: 1\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 2\nproperty magnitude: life insurance\nage: 46\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: unskilled resident\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 9\ncredit history: existing paid\npurpose: new car\ncredit amount: 3195\nsavings status: no known savings\nemployment: 1<=X<4\ninstallment commitment: 1\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 2\nproperty magnitude: real estate\nage: 33\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: unskilled resident\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 36\ncredit history: delayed previously\npurpose: radio/tv\ncredit amount: 4454\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 4\nproperty magnitude: real estate\nage: 34\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: 0<=X<200\nduration: 24\ncredit history: critical/other existing credit\npurpose: furniture/equipment\ncredit amount: 4736\nsavings status: <100\nemployment: <1\ninstallment commitment: 2\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 4\nproperty magnitude: car\nage: 25\nother payment plans: bank\nhousing: own\nexisting credits: 1\njob: unskilled resident\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 30\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 2991\nsavings status: no known savings\nemployment: >=7\ninstallment commitment: 2\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 4\nproperty magnitude: car\nage: 25\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 11\ncredit history: existing paid\npurpose: business\ncredit amount: 2142\nsavings status: >=1000\nemployment: >=7\ninstallment commitment: 1\npersonal status: male div/sep\nother parties: none\nresidence since: 2\nproperty magnitude: real estate\nage: 28\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 24\ncredit history: all paid\npurpose: business\ncredit amount: 3161\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: life insurance\nage: 31\nother payment plans: none\nhousing: rent\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: 0<=X<200\nduration: 48\ncredit history: no credits/all paid\npurpose: other\ncredit amount: 18424\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 1\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 2\nproperty magnitude: life insurance\nage: 32\nother payment plans: bank\nhousing: own\nexisting credits: 1\njob: high qualif/self emp/mgmt\nnum dependents: 1\nown telephone: yes\nforeign worker: no\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 10\ncredit history: existing paid\npurpose: used car\ncredit amount: 2848\nsavings status: 100<=X<500\nemployment: 1<=X<4\ninstallment commitment: 1\npersonal status: male single\nother parties: co applicant\nresidence since: 2\nproperty magnitude: real estate\nage: 32\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 2\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 6\ncredit history: existing paid\npurpose: new car\ncredit amount: 14896\nsavings status: <100\nemployment: >=7\ninstallment commitment: 1\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: no known property\nage: 68\nother payment plans: bank\nhousing: own\nexisting credits: 1\njob: high qualif/self emp/mgmt\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 24\ncredit history: existing paid\npurpose: furniture/equipment\ncredit amount: 2359\nsavings status: 100<=X<500\nemployment: unemployed\ninstallment commitment: 1\npersonal status: male div/sep\nother parties: none\nresidence since: 1\nproperty magnitude: life insurance\nage: 33\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 24\ncredit history: existing paid\npurpose: furniture/equipment\ncredit amount: 3345\nsavings status: <100\nemployment: >=7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: life insurance\nage: 39\nother payment plans: none\nhousing: rent\nexisting credits: 1\njob: high qualif/self emp/mgmt\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 18\ncredit history: critical/other existing credit\npurpose: furniture/equipment\ncredit amount: 1817\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 2\nproperty magnitude: no known property\nage: 28\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 48\ncredit history: delayed previously\npurpose: radio/tv\ncredit amount: 12749\nsavings status: 500<=X<1000\nemployment: 4<=X<7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 1\nproperty magnitude: car\nage: 37\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: high qualif/self emp/mgmt\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 9\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 1366\nsavings status: <100\nemployment: <1\ninstallment commitment: 3\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 4\nproperty magnitude: life insurance\nage: 22\nother payment plans: none\nhousing: rent\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 12\ncredit history: existing paid\npurpose: new car\ncredit amount: 2002\nsavings status: <100\nemployment: 4<=X<7\ninstallment commitment: 3\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: life insurance\nage: 30\nother payment plans: none\nhousing: rent\nexisting credits: 1\njob: skilled\nnum dependents: 2\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 24\ncredit history: all paid\npurpose: furniture/equipment\ncredit amount: 6872\nsavings status: <100\nemployment: <1\ninstallment commitment: 2\npersonal status: male div/sep\nother parties: none\nresidence since: 1\nproperty magnitude: life insurance\nage: 55\nother payment plans: bank\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 12\ncredit history: all paid\npurpose: new car\ncredit amount: 697\nsavings status: <100\nemployment: <1\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: car\nage: 46\nother payment plans: bank\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 18\ncredit history: critical/other existing credit\npurpose: furniture/equipment\ncredit amount: 1049\nsavings status: <100\nemployment: <1\ninstallment commitment: 4\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 4\nproperty magnitude: life insurance\nage: 21\nother payment plans: none\nhousing: rent\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 48\ncredit history: existing paid\npurpose: used car\ncredit amount: 10297\nsavings status: <100\nemployment: 4<=X<7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: no known property\nage: 39\nother payment plans: stores\nhousing: for free\nexisting credits: 3\njob: skilled\nnum dependents: 2\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 30\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 1867\nsavings status: no known savings\nemployment: >=7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: car\nage: 58\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 12\ncredit history: delayed previously\npurpose: new car\ncredit amount: 1344\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: real estate\nage: 43\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: unskilled resident\nnum dependents: 2\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 24\ncredit history: existing paid\npurpose: furniture/equipment\ncredit amount: 1747\nsavings status: <100\nemployment: <1\ninstallment commitment: 4\npersonal status: male single\nother parties: co applicant\nresidence since: 1\nproperty magnitude: life insurance\nage: 24\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: unskilled resident\nnum dependents: 1\nown telephone: none\nforeign worker: no\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: 0<=X<200\nduration: 9\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 1670\nsavings status: <100\nemployment: <1\ninstallment commitment: 4\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 2\nproperty magnitude: car\nage: 22\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 9\ncredit history: critical/other existing credit\npurpose: new car\ncredit amount: 1224\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 3\npersonal status: male single\nother parties: none\nresidence since: 1\nproperty magnitude: real estate\nage: 30\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 12\ncredit history: critical/other existing credit\npurpose: radio/tv\ncredit amount: 522\nsavings status: 500<=X<1000\nemployment: >=7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: life insurance\nage: 42\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 2\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 12\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 1498\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 1\nproperty magnitude: car\nage: 23\nother payment plans: bank\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: 0<=X<200\nduration: 30\ncredit history: delayed previously\npurpose: radio/tv\ncredit amount: 1919\nsavings status: 100<=X<500\nemployment: <1\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 3\nproperty magnitude: no known property\nage: 30\nother payment plans: stores\nhousing: own\nexisting credits: 2\njob: high qualif/self emp/mgmt\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: >=200\nduration: 9\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 745\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 3\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 2\nproperty magnitude: real estate\nage: 28\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: unskilled resident\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 6\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 2063\nsavings status: <100\nemployment: <1\ninstallment commitment: 4\npersonal status: male mar/wid\nother parties: none\nresidence since: 3\nproperty magnitude: car\nage: 30\nother payment plans: none\nhousing: rent\nexisting credits: 1\njob: high qualif/self emp/mgmt\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: 0<=X<200\nduration: 60\ncredit history: existing paid\npurpose: education\ncredit amount: 6288\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: no known property\nage: 42\nother payment plans: none\nhousing: for free\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 24\ncredit history: critical/other existing credit\npurpose: used car\ncredit amount: 6842\nsavings status: no known savings\nemployment: 1<=X<4\ninstallment commitment: 2\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: life insurance\nage: 46\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: high qualif/self emp/mgmt\nnum dependents: 2\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 12\ncredit history: existing paid\npurpose: new car\ncredit amount: 3527\nsavings status: no known savings\nemployment: <1\ninstallment commitment: 2\npersonal status: male single\nother parties: none\nresidence since: 3\nproperty magnitude: life insurance\nage: 45\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: high qualif/self emp/mgmt\nnum dependents: 2\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 10\ncredit history: existing paid\npurpose: new car\ncredit amount: 1546\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 3\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: real estate\nage: 31\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: unskilled resident\nnum dependents: 2\nown telephone: none\nforeign worker: no\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 24\ncredit history: existing paid\npurpose: furniture/equipment\ncredit amount: 929\nsavings status: no known savings\nemployment: 4<=X<7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: car\nage: 31\nother payment plans: stores\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 4\ncredit history: critical/other existing credit\npurpose: new car\ncredit amount: 1455\nsavings status: <100\nemployment: 4<=X<7\ninstallment commitment: 2\npersonal status: male single\nother parties: none\nresidence since: 1\nproperty magnitude: real estate\nage: 42\nother payment plans: none\nhousing: own\nexisting credits: 3\njob: unskilled resident\nnum dependents: 2\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 15\ncredit history: existing paid\npurpose: furniture/equipment\ncredit amount: 1845\nsavings status: <100\nemployment: <1\ninstallment commitment: 4\npersonal status: female div/dep/mar\nother parties: guarantor\nresidence since: 1\nproperty magnitude: life insurance\nage: 46\nother payment plans: none\nhousing: rent\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 48\ncredit history: no credits/all paid\npurpose: new car\ncredit amount: 8358\nsavings status: 500<=X<1000\nemployment: <1\ninstallment commitment: 1\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 1\nproperty magnitude: car\nage: 30\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 24\ncredit history: all paid\npurpose: furniture/equipment\ncredit amount: 3349\nsavings status: 500<=X<1000\nemployment: <1\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: no known property\nage: 30\nother payment plans: none\nhousing: for free\nexisting credits: 1\njob: skilled\nnum dependents: 2\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 12\ncredit history: existing paid\npurpose: new car\ncredit amount: 2859\nsavings status: no known savings\nemployment: unemployed\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: no known property\nage: 38\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: high qualif/self emp/mgmt\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: no checking\nduration: 18\ncredit history: existing paid\npurpose: furniture/equipment\ncredit amount: 1533\nsavings status: <100\nemployment: <1\ninstallment commitment: 4\npersonal status: male mar/wid\nother parties: co applicant\nresidence since: 1\nproperty magnitude: life insurance\nage: 43\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: unskilled resident\nnum dependents: 2\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: no checking\nduration: 24\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 3621\nsavings status: 100<=X<500\nemployment: >=7\ninstallment commitment: 2\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: car\nage: 31\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 18\ncredit history: critical/other existing credit\npurpose: business\ncredit amount: 3590\nsavings status: <100\nemployment: unemployed\ninstallment commitment: 3\npersonal status: male mar/wid\nother parties: none\nresidence since: 3\nproperty magnitude: car\nage: 40\nother payment plans: none\nhousing: own\nexisting credits: 3\njob: unemp/unskilled non res\nnum dependents: 2\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 36\ncredit history: delayed previously\npurpose: business\ncredit amount: 2145\nsavings status: <100\nemployment: 4<=X<7\ninstallment commitment: 2\npersonal status: male single\nother parties: none\nresidence since: 1\nproperty magnitude: car\nage: 24\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: 0<=X<200\nduration: 24\ncredit history: existing paid\npurpose: used car\ncredit amount: 4113\nsavings status: 500<=X<1000\nemployment: <1\ninstallment commitment: 3\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 4\nproperty magnitude: car\nage: 28\nother payment plans: none\nhousing: rent\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: no checking\nduration: 36\ncredit history: existing paid\npurpose: furniture/equipment\ncredit amount: 10974\nsavings status: <100\nemployment: unemployed\ninstallment commitment: 4\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 2\nproperty magnitude: car\nage: 26\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: high qualif/self emp/mgmt\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 12\ncredit history: existing paid\npurpose: new car\ncredit amount: 1893\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: female div/dep/mar\nother parties: guarantor\nresidence since: 4\nproperty magnitude: life insurance\nage: 29\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 24\ncredit history: critical/other existing credit\npurpose: radio/tv\ncredit amount: 1231\nsavings status: >=1000\nemployment: >=7\ninstallment commitment: 4\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 4\nproperty magnitude: life insurance\nage: 57\nother payment plans: none\nhousing: rent\nexisting credits: 2\njob: high qualif/self emp/mgmt\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: >=200\nduration: 30\ncredit history: critical/other existing credit\npurpose: radio/tv\ncredit amount: 3656\nsavings status: no known savings\nemployment: >=7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: life insurance\nage: 49\nother payment plans: stores\nhousing: own\nexisting credits: 2\njob: unskilled resident\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 9\ncredit history: critical/other existing credit\npurpose: radio/tv\ncredit amount: 1154\nsavings status: <100\nemployment: >=7\ninstallment commitment: 2\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: real estate\nage: 37\nother payment plans: none\nhousing: own\nexisting credits: 3\njob: unskilled resident\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 28\ncredit history: existing paid\npurpose: new car\ncredit amount: 4006\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 3\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: car\nage: 45\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: unskilled resident\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 24\ncredit history: existing paid\npurpose: furniture/equipment\ncredit amount: 3069\nsavings status: 100<=X<500\nemployment: >=7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: no known property\nage: 30\nother payment plans: none\nhousing: for free\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 6\ncredit history: critical/other existing credit\npurpose: radio/tv\ncredit amount: 1740\nsavings status: <100\nemployment: >=7\ninstallment commitment: 2\npersonal status: male mar/wid\nother parties: none\nresidence since: 2\nproperty magnitude: real estate\nage: 30\nother payment plans: none\nhousing: rent\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 21\ncredit history: delayed previously\npurpose: new car\ncredit amount: 2353\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 1\npersonal status: male div/sep\nother parties: none\nresidence since: 4\nproperty magnitude: life insurance\nage: 47\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 15\ncredit history: existing paid\npurpose: new car\ncredit amount: 3556\nsavings status: no known savings\nemployment: 1<=X<4\ninstallment commitment: 3\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: no known property\nage: 29\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: no checking\nduration: 24\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 2397\nsavings status: 500<=X<1000\nemployment: >=7\ninstallment commitment: 3\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: car\nage: 35\nother payment plans: bank\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 6\ncredit history: existing paid\npurpose: repairs\ncredit amount: 454\nsavings status: <100\nemployment: <1\ninstallment commitment: 3\npersonal status: male mar/wid\nother parties: none\nresidence since: 1\nproperty magnitude: life insurance\nage: 22\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: unskilled resident\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 30\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 1715\nsavings status: no known savings\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 1\nproperty magnitude: car\nage: 26\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: 0<=X<200\nduration: 27\ncredit history: critical/other existing credit\npurpose: radio/tv\ncredit amount: 2520\nsavings status: 500<=X<1000\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: life insurance\nage: 23\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: unskilled resident\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 15\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 3568\nsavings status: <100\nemployment: >=7\ninstallment commitment: 4\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 2\nproperty magnitude: car\nage: 54\nother payment plans: bank\nhousing: rent\nexisting credits: 1\njob: high qualif/self emp/mgmt\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 42\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 7166\nsavings status: no known savings\nemployment: 4<=X<7\ninstallment commitment: 2\npersonal status: male mar/wid\nother parties: none\nresidence since: 4\nproperty magnitude: life insurance\nage: 29\nother payment plans: none\nhousing: rent\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 11\ncredit history: critical/other existing credit\npurpose: new car\ncredit amount: 3939\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 1\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: real estate\nage: 40\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: unskilled resident\nnum dependents: 2\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 15\ncredit history: existing paid\npurpose: repairs\ncredit amount: 1514\nsavings status: 100<=X<500\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: male single\nother parties: guarantor\nresidence since: 2\nproperty magnitude: real estate\nage: 22\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 24\ncredit history: existing paid\npurpose: new car\ncredit amount: 7393\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 1\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: life insurance\nage: 43\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: unskilled resident\nnum dependents: 2\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 24\ncredit history: all paid\npurpose: new car\ncredit amount: 1193\nsavings status: <100\nemployment: unemployed\ninstallment commitment: 1\npersonal status: female div/dep/mar\nother parties: co applicant\nresidence since: 4\nproperty magnitude: no known property\nage: 29\nother payment plans: none\nhousing: rent\nexisting credits: 2\njob: unemp/unskilled non res\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 60\ncredit history: existing paid\npurpose: business\ncredit amount: 7297\nsavings status: <100\nemployment: >=7\ninstallment commitment: 4\npersonal status: male single\nother parties: co applicant\nresidence since: 4\nproperty magnitude: no known property\nage: 36\nother payment plans: none\nhousing: rent\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 30\ncredit history: critical/other existing credit\npurpose: radio/tv\ncredit amount: 2831\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 2\nproperty magnitude: car\nage: 33\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: >=200\nduration: 24\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 1258\nsavings status: 500<=X<1000\nemployment: 1<=X<4\ninstallment commitment: 3\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 3\nproperty magnitude: car\nage: 57\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: unskilled resident\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 6\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 753\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 2\npersonal status: female div/dep/mar\nother parties: guarantor\nresidence since: 3\nproperty magnitude: real estate\nage: 64\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 18\ncredit history: delayed previously\npurpose: business\ncredit amount: 2427\nsavings status: no known savings\nemployment: >=7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: life insurance\nage: 42\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: no checking\nduration: 24\ncredit history: delayed previously\npurpose: new car\ncredit amount: 2538\nsavings status: <100\nemployment: >=7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: car\nage: 47\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: unskilled resident\nnum dependents: 2\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: 0<=X<200\nduration: 15\ncredit history: all paid\npurpose: new car\ncredit amount: 1264\nsavings status: 100<=X<500\nemployment: 1<=X<4\ninstallment commitment: 2\npersonal status: male mar/wid\nother parties: none\nresidence since: 2\nproperty magnitude: life insurance\nage: 25\nother payment plans: none\nhousing: rent\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: 0<=X<200\nduration: 30\ncredit history: critical/other existing credit\npurpose: furniture/equipment\ncredit amount: 8386\nsavings status: <100\nemployment: 4<=X<7\ninstallment commitment: 2\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: life insurance\nage: 49\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: no checking\nduration: 48\ncredit history: existing paid\npurpose: business\ncredit amount: 4844\nsavings status: <100\nemployment: unemployed\ninstallment commitment: 3\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: car\nage: 33\nother payment plans: bank\nhousing: rent\nexisting credits: 1\njob: high qualif/self emp/mgmt\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: >=200\nduration: 21\ncredit history: existing paid\npurpose: new car\ncredit amount: 2923\nsavings status: 100<=X<500\nemployment: 1<=X<4\ninstallment commitment: 1\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 1\nproperty magnitude: car\nage: 28\nother payment plans: bank\nhousing: own\nexisting credits: 1\njob: high qualif/self emp/mgmt\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 36\ncredit history: existing paid\npurpose: used car\ncredit amount: 8229\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 2\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: life insurance\nage: 26\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 2\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 24\ncredit history: critical/other existing credit\npurpose: furniture/equipment\ncredit amount: 2028\nsavings status: <100\nemployment: 4<=X<7\ninstallment commitment: 2\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: life insurance\nage: 30\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: unskilled resident\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 15\ncredit history: critical/other existing credit\npurpose: furniture/equipment\ncredit amount: 1433\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 3\nproperty magnitude: life insurance\nage: 25\nother payment plans: none\nhousing: rent\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: >=200\nduration: 42\ncredit history: no credits/all paid\npurpose: business\ncredit amount: 6289\nsavings status: <100\nemployment: <1\ninstallment commitment: 2\npersonal status: male div/sep\nother parties: none\nresidence since: 1\nproperty magnitude: life insurance\nage: 33\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 13\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 1409\nsavings status: 100<=X<500\nemployment: unemployed\ninstallment commitment: 2\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 4\nproperty magnitude: real estate\nage: 64\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 24\ncredit history: existing paid\npurpose: used car\ncredit amount: 6579\nsavings status: <100\nemployment: unemployed\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: no known property\nage: 29\nother payment plans: none\nhousing: for free\nexisting credits: 1\njob: high qualif/self emp/mgmt\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 24\ncredit history: critical/other existing credit\npurpose: radio/tv\ncredit amount: 1743\nsavings status: <100\nemployment: >=7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 2\nproperty magnitude: life insurance\nage: 48\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: unskilled resident\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 12\ncredit history: critical/other existing credit\npurpose: education\ncredit amount: 3565\nsavings status: no known savings\nemployment: <1\ninstallment commitment: 2\npersonal status: male single\nother parties: none\nresidence since: 1\nproperty magnitude: life insurance\nage: 37\nother payment plans: none\nhousing: own\nexisting credits: 2\njob: unskilled resident\nnum dependents: 2\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 15\ncredit history: all paid\npurpose: radio/tv\ncredit amount: 1569\nsavings status: 100<=X<500\nemployment: >=7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: car\nage: 34\nother payment plans: bank\nhousing: own\nexisting credits: 1\njob: unskilled resident\nnum dependents: 2\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 18\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 1936\nsavings status: no known savings\nemployment: 4<=X<7\ninstallment commitment: 2\npersonal status: male mar/wid\nother parties: none\nresidence since: 4\nproperty magnitude: car\nage: 23\nother payment plans: none\nhousing: rent\nexisting credits: 2\njob: unskilled resident\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 36\ncredit history: existing paid\npurpose: furniture/equipment\ncredit amount: 3959\nsavings status: <100\nemployment: unemployed\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 3\nproperty magnitude: life insurance\nage: 30\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: high qualif/self emp/mgmt\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 12\ncredit history: existing paid\npurpose: new car\ncredit amount: 2390\nsavings status: no known savings\nemployment: >=7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 3\nproperty magnitude: car\nage: 50\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 12\ncredit history: existing paid\npurpose: furniture/equipment\ncredit amount: 1736\nsavings status: <100\nemployment: 4<=X<7\ninstallment commitment: 3\npersonal status: female div/dep/mar\nother parties: none\nresidence since: 4\nproperty magnitude: real estate\nage: 31\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: unskilled resident\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: <0\nduration: 30\ncredit history: existing paid\npurpose: used car\ncredit amount: 3857\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: male div/sep\nother parties: none\nresidence since: 4\nproperty magnitude: life insurance\nage: 40\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: high qualif/self emp/mgmt\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: no checking\nduration: 12\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 804\nsavings status: <100\nemployment: >=7\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: car\nage: 38\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "checking status: <0\nduration: 45\ncredit history: existing paid\npurpose: radio/tv\ncredit amount: 1845\nsavings status: <100\nemployment: 1<=X<4\ninstallment commitment: 4\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: no known property\nage: 23\nother payment plans: none\nhousing: for free\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: yes\nforeign worker: yes\n"
+    },
+    {
+        "header": "Given the following data about a customer, you must predict whether their credit application was approved.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "checking status: 0<=X<200\nduration: 45\ncredit history: critical/other existing credit\npurpose: used car\ncredit amount: 4576\nsavings status: 100<=X<500\nemployment: unemployed\ninstallment commitment: 3\npersonal status: male single\nother parties: none\nresidence since: 4\nproperty magnitude: car\nage: 27\nother payment plans: none\nhousing: own\nexisting credits: 1\njob: skilled\nnum dependents: 1\nown telephone: none\nforeign worker: yes\n"
+    }
+]

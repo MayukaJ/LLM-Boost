@@ -1,0 +1,1202 @@
+[
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 2\nfrequency: 3\nmonetary: 750\ntime: 24\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 12\nfrequency: 11\nmonetary: 2750\ntime: 39\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 2\nfrequency: 2\nmonetary: 500\ntime: 14\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 4\nfrequency: 6\nmonetary: 1500\ntime: 46\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 9\nfrequency: 3\nmonetary: 750\ntime: 14\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 14\nfrequency: 8\nmonetary: 2000\ntime: 26\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 4\nfrequency: 2\nmonetary: 500\ntime: 13\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 4\nfrequency: 11\nmonetary: 2750\ntime: 95\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 2\nfrequency: 7\nmonetary: 1750\ntime: 77\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 2\nfrequency: 7\nmonetary: 1750\ntime: 77\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 4\nfrequency: 1\nmonetary: 250\ntime: 4\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 4\nfrequency: 1\nmonetary: 250\ntime: 4\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 4\nfrequency: 1\nmonetary: 250\ntime: 4\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 4\nfrequency: 1\nmonetary: 250\ntime: 4\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "recency: 4\nfrequency: 1\nmonetary: 250\ntime: 4\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 4\nfrequency: 1\nmonetary: 250\ntime: 4\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 4\nfrequency: 1\nmonetary: 250\ntime: 4\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 4\nfrequency: 1\nmonetary: 250\ntime: 4\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 4\nfrequency: 1\nmonetary: 250\ntime: 4\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 4\nfrequency: 1\nmonetary: 250\ntime: 4\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "recency: 4\nfrequency: 1\nmonetary: 250\ntime: 4\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 4\nfrequency: 1\nmonetary: 250\ntime: 4\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 4\nfrequency: 7\nmonetary: 1750\ntime: 62\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 4\nfrequency: 1\nmonetary: 250\ntime: 4\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "recency: 4\nfrequency: 4\nmonetary: 1000\ntime: 34\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 11\nfrequency: 6\nmonetary: 1500\ntime: 28\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "recency: 13\nfrequency: 3\nmonetary: 750\ntime: 14\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 7\nfrequency: 5\nmonetary: 1250\ntime: 35\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 9\nfrequency: 9\nmonetary: 2250\ntime: 54\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 11\nfrequency: 2\nmonetary: 500\ntime: 11\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 2\nfrequency: 5\nmonetary: 1250\ntime: 63\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 7\nfrequency: 11\nmonetary: 2750\ntime: 89\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 8\nfrequency: 9\nmonetary: 2250\ntime: 64\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 2\nfrequency: 2\nmonetary: 500\ntime: 22\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 6\nfrequency: 3\nmonetary: 750\ntime: 26\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 12\nfrequency: 15\nmonetary: 3750\ntime: 71\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 13\nfrequency: 3\nmonetary: 750\ntime: 16\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 11\nfrequency: 16\nmonetary: 4000\ntime: 89\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 4\nfrequency: 5\nmonetary: 1250\ntime: 58\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 14\nfrequency: 7\nmonetary: 1750\ntime: 35\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 11\nfrequency: 4\nmonetary: 1000\ntime: 27\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "recency: 7\nfrequency: 9\nmonetary: 2250\ntime: 89\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "recency: 11\nfrequency: 8\nmonetary: 2000\ntime: 52\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 7\nfrequency: 5\nmonetary: 1250\ntime: 52\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 11\nfrequency: 6\nmonetary: 1500\ntime: 41\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 10\nfrequency: 5\nmonetary: 1250\ntime: 38\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "recency: 14\nfrequency: 2\nmonetary: 500\ntime: 14\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 14\nfrequency: 2\nmonetary: 500\ntime: 14\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 14\nfrequency: 2\nmonetary: 500\ntime: 14\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 2\nfrequency: 2\nmonetary: 500\ntime: 33\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 11\nfrequency: 3\nmonetary: 750\ntime: 23\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 14\nfrequency: 8\nmonetary: 2000\ntime: 46\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 9\nfrequency: 1\nmonetary: 250\ntime: 9\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 16\nfrequency: 5\nmonetary: 1250\ntime: 27\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 14\nfrequency: 4\nmonetary: 1000\ntime: 26\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 4\nfrequency: 2\nmonetary: 500\ntime: 30\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 14\nfrequency: 3\nmonetary: 750\ntime: 21\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 16\nfrequency: 16\nmonetary: 4000\ntime: 77\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 4\nfrequency: 2\nmonetary: 500\ntime: 31\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 14\nfrequency: 8\nmonetary: 2000\ntime: 50\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 11\nfrequency: 3\nmonetary: 750\ntime: 26\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 14\nfrequency: 7\nmonetary: 1750\ntime: 45\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 15\nfrequency: 5\nmonetary: 1250\ntime: 33\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 16\nfrequency: 2\nmonetary: 500\ntime: 16\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 16\nfrequency: 3\nmonetary: 750\ntime: 21\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 11\nfrequency: 8\nmonetary: 2000\ntime: 72\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 11\nfrequency: 1\nmonetary: 250\ntime: 11\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 11\nfrequency: 1\nmonetary: 250\ntime: 11\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 11\nfrequency: 1\nmonetary: 250\ntime: 11\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "recency: 11\nfrequency: 1\nmonetary: 250\ntime: 11\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 11\nfrequency: 1\nmonetary: 250\ntime: 11\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "recency: 2\nfrequency: 3\nmonetary: 750\ntime: 75\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 2\nfrequency: 3\nmonetary: 750\ntime: 77\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 16\nfrequency: 4\nmonetary: 1000\ntime: 28\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 16\nfrequency: 15\nmonetary: 3750\ntime: 87\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 16\nfrequency: 14\nmonetary: 3500\ntime: 83\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 16\nfrequency: 10\nmonetary: 2500\ntime: 62\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 16\nfrequency: 3\nmonetary: 750\ntime: 23\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 14\nfrequency: 3\nmonetary: 750\ntime: 26\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 23\nfrequency: 19\nmonetary: 4750\ntime: 62\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 11\nfrequency: 7\nmonetary: 1750\ntime: 75\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 14\nfrequency: 3\nmonetary: 750\ntime: 28\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "recency: 20\nfrequency: 14\nmonetary: 3500\ntime: 69\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 4\nfrequency: 2\nmonetary: 500\ntime: 46\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 11\nfrequency: 2\nmonetary: 500\ntime: 25\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 11\nfrequency: 3\nmonetary: 750\ntime: 37\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 16\nfrequency: 4\nmonetary: 1000\ntime: 33\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 21\nfrequency: 7\nmonetary: 1750\ntime: 38\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 13\nfrequency: 7\nmonetary: 1750\ntime: 76\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 16\nfrequency: 6\nmonetary: 1500\ntime: 50\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 14\nfrequency: 3\nmonetary: 750\ntime: 33\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 14\nfrequency: 1\nmonetary: 250\ntime: 14\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 14\nfrequency: 1\nmonetary: 250\ntime: 14\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 14\nfrequency: 1\nmonetary: 250\ntime: 14\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 14\nfrequency: 1\nmonetary: 250\ntime: 14\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 14\nfrequency: 1\nmonetary: 250\ntime: 14\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 14\nfrequency: 1\nmonetary: 250\ntime: 14\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "recency: 17\nfrequency: 7\nmonetary: 1750\ntime: 58\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 14\nfrequency: 3\nmonetary: 750\ntime: 35\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 14\nfrequency: 3\nmonetary: 750\ntime: 35\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 16\nfrequency: 7\nmonetary: 1750\ntime: 64\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 21\nfrequency: 2\nmonetary: 500\ntime: 21\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 16\nfrequency: 3\nmonetary: 750\ntime: 35\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 16\nfrequency: 1\nmonetary: 250\ntime: 16\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 16\nfrequency: 1\nmonetary: 250\ntime: 16\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 16\nfrequency: 1\nmonetary: 250\ntime: 16\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 16\nfrequency: 1\nmonetary: 250\ntime: 16\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 16\nfrequency: 1\nmonetary: 250\ntime: 16\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 14\nfrequency: 2\nmonetary: 500\ntime: 29\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 11\nfrequency: 4\nmonetary: 1000\ntime: 74\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "recency: 11\nfrequency: 2\nmonetary: 500\ntime: 38\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 21\nfrequency: 6\nmonetary: 1500\ntime: 48\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 23\nfrequency: 2\nmonetary: 500\ntime: 23\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 23\nfrequency: 6\nmonetary: 1500\ntime: 45\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "recency: 14\nfrequency: 2\nmonetary: 500\ntime: 35\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 16\nfrequency: 6\nmonetary: 1500\ntime: 81\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 16\nfrequency: 4\nmonetary: 1000\ntime: 58\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 16\nfrequency: 5\nmonetary: 1250\ntime: 71\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 21\nfrequency: 2\nmonetary: 500\ntime: 26\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 21\nfrequency: 3\nmonetary: 750\ntime: 35\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 21\nfrequency: 3\nmonetary: 750\ntime: 35\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 23\nfrequency: 8\nmonetary: 2000\ntime: 69\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 21\nfrequency: 3\nmonetary: 750\ntime: 38\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 23\nfrequency: 3\nmonetary: 750\ntime: 35\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 21\nfrequency: 3\nmonetary: 750\ntime: 40\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 23\nfrequency: 2\nmonetary: 500\ntime: 28\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 21\nfrequency: 1\nmonetary: 250\ntime: 21\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 21\nfrequency: 1\nmonetary: 250\ntime: 21\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 25\nfrequency: 6\nmonetary: 1500\ntime: 50\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 21\nfrequency: 1\nmonetary: 250\ntime: 21\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 21\nfrequency: 1\nmonetary: 250\ntime: 21\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 23\nfrequency: 3\nmonetary: 750\ntime: 39\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 21\nfrequency: 2\nmonetary: 500\ntime: 33\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 14\nfrequency: 3\nmonetary: 750\ntime: 79\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "recency: 23\nfrequency: 1\nmonetary: 250\ntime: 23\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 23\nfrequency: 1\nmonetary: 250\ntime: 23\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 23\nfrequency: 1\nmonetary: 250\ntime: 23\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 23\nfrequency: 1\nmonetary: 250\ntime: 23\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 23\nfrequency: 1\nmonetary: 250\ntime: 23\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 23\nfrequency: 1\nmonetary: 250\ntime: 23\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 23\nfrequency: 1\nmonetary: 250\ntime: 23\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 23\nfrequency: 4\nmonetary: 1000\ntime: 52\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 23\nfrequency: 1\nmonetary: 250\ntime: 23\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 23\nfrequency: 7\nmonetary: 1750\ntime: 88\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 16\nfrequency: 3\nmonetary: 750\ntime: 86\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 23\nfrequency: 2\nmonetary: 500\ntime: 38\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 21\nfrequency: 2\nmonetary: 500\ntime: 52\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 23\nfrequency: 3\nmonetary: 750\ntime: 62\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 39\nfrequency: 1\nmonetary: 250\ntime: 39\n"
+    },
+    {
+        "header": "Given the following data, you must predict if the person donated blood",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "recency: 72\nfrequency: 1\nmonetary: 250\ntime: 72\n"
+    }
+]

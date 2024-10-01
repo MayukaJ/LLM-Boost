@@ -15,6 +15,7 @@ from sklearn.model_selection import train_test_split
 from tabpfn import TabPFNClassifier
 import lightgbm as lgb
 import openml
+import math
 
 N_CLASSES = 2
 
@@ -145,14 +146,19 @@ def predict_lgbm(booster: lgb.Booster, X: pd.DataFrame, scores: Optional[np.ndar
     # predt = predt + scores
     if scores is not None:
         predt = predt + scores*scale
-    out = np.zeros(kRows)
-    for r in range(predt.shape[0]):
-        # the class with maximum prob (not strictly prob as it haven't gone
-        # through softmax yet so it doesn't sum to 1, but result is the same
-        # for argmax).
-        i = np.argmax(predt[r])
-        out[r] = i
-    return out
+    # out = np.zeros(kRows)
+    # for r in range(predt.shape[0]):
+    #     # the class with maximum prob (not strictly prob as it haven't gone
+    #     # through softmax yet so it doesn't sum to 1, but result is the same
+    #     # for argmax).
+    #     i = np.argmax(predt[r])
+    #     out[r] = i
+    # return out
+    predt = scipy.special.softmax(predt, axis=1)
+    if N_CLASSES <= 2:
+        predt = predt[:,1]
+    return predt
+
 
 def predict(booster: xgb.Booster, X, num_boost_round,
             scores: Optional[np.ndarray] = None, scale: float = 0.0):
@@ -168,14 +174,18 @@ def predict(booster: xgb.Booster, X, num_boost_round,
     # predt = predt + scores
     if scores is not None:
         predt = predt + scores*scale# + 0.5
-    out = np.zeros(kRows)
-    for r in range(predt.shape[0]):
-        # the class with maximum prob (not strictly prob as it haven't gone
-        # through softmax yet so it doesn't sum to 1, but result is the same
-        # for argmax).
-        i = np.argmax(predt[r])
-        out[r] = i
-    return out
+    # out = np.zeros(kRows)
+    # for r in range(predt.shape[0]):
+    #     # the class with maximum prob (not strictly prob as it haven't gone
+    #     # through softmax yet so it doesn't sum to 1, but result is the same
+    #     # for argmax).
+    #     i = np.argmax(predt[r])
+    #     out[r] = i
+    # return out
+    predt = scipy.special.softmax(predt, axis=1)
+    if N_CLASSES <= 2:
+        predt = predt[:,1]
+    return predt
 
 
 def merror(predt: np.ndarray, dtrain: xgb.DMatrix):
@@ -302,15 +312,14 @@ def load_tabular_data(data_paths, train_size=-1, test_size=-1, num_exp=1, cv_fol
         
         if train_size>0:
             if stratified:
-                tmp_train_y = pd.DataFrame()
-                for i in range(N_CLASSES):
-                    tmp_train_y['labels_%d'%i] = tmp_train_x['labels_%d'%i]
-                tmp_train_y = np.array(tmp_train_y).astype('float32')
-                tmp_train_y = np.argmax(tmp_train_y, axis=1)
-                tmp_train_x['tmp_label'] = tmp_train_y
-                tmp_train_x = tmp_train_x.sample(frac=1, random_state=iter+seed).reset_index(drop=True)
-                tmp_train_x = tmp_train_x.groupby('tmp_label').head(np.floor(train_size/N_CLASSES)).reset_index(drop=True)
-                tmp_train_x = tmp_train_x.drop(['tmp_label'], axis=1)
+                one_hot_columns = ['labels_%d'%i for i in range(N_CLASSES)]
+                tmp_train_x['label'] = tmp_train_x[one_hot_columns].idxmax(axis=1)
+                min_stratum_size = tmp_train_x['label'].value_counts().min()
+                sample_size = math.floor(train_size/N_CLASSES)
+                if sample_size > min_stratum_size:
+                    raise ValueError(f"Sample size {sample_size} exceeds the smallest stratum size {min_stratum_size}.")
+                tmp_train_x = tmp_train_x.groupby('label', group_keys=False).apply(lambda x: x.sample(sample_size))
+                tmp_train_x = tmp_train_x.drop(columns=['label'])
             else:
                 tmp_train_x = tmp_train_x.sample(n=train_size, random_state=iter+seed).reset_index(drop=True)
         
@@ -330,15 +339,14 @@ def load_tabular_data(data_paths, train_size=-1, test_size=-1, num_exp=1, cv_fol
     
         if test_size>0:
             if stratified:
-                tmp_test_y = pd.DataFrame()
-                for i in range(N_CLASSES):
-                    tmp_test_y['labels_%d'%i] = tmp_test_x['labels_%d'%i]
-                tmp_test_y = np.array(tmp_test_y).astype('float32')
-                tmp_test_y = np.argmax(tmp_test_y, axis=1)
-                tmp_test_x['tmp_label'] = tmp_test_y
-                tmp_test_x = tmp_test_x.sample(frac=1, random_state=iter+seed).reset_index(drop=True)
-                tmp_test_x = tmp_test_x.groupby('tmp_label').head(np.floor(test_size/N_CLASSES)).reset_index(drop=True)
-                tmp_test_x = tmp_test_x.drop(['tmp_label'], axis=1)
+                one_hot_columns = ['labels_%d'%i for i in range(N_CLASSES)]
+                tmp_test_x['label'] = tmp_test_x[one_hot_columns].idxmax(axis=1)
+                min_stratum_size = tmp_test_x['label'].value_counts().min()
+                sample_size = math.floor(test_size/N_CLASSES)
+                if sample_size > min_stratum_size:
+                    raise ValueError(f"Sample size {sample_size} exceeds the smallest stratum size {min_stratum_size}.")
+                tmp_test_x = tmp_test_x.groupby('label', group_keys=False).apply(lambda x: x.sample(sample_size))
+                tmp_test_x = tmp_test_x.drop(columns=['label'])
             else:
                 tmp_test_x = tmp_test_x.sample(n=test_size, random_state=iter+seed).reset_index(drop=True)
         
@@ -357,8 +365,12 @@ def load_tabular_data(data_paths, train_size=-1, test_size=-1, num_exp=1, cv_fol
         # scores_test = scipy.special.softmax(scores_test, axis=1)
         inner = []
         for val_iter in range(cv_folds):
-            tmp_tmp_train_x, val_x, tmp_train_y, val_y, tmp_scores_train, scores_val = train_test_split(tmp_train_x, train_y, scores_train,
-                                                                                        test_size=val_size, random_state=val_iter+seed)
+            if stratified:
+                tmp_tmp_train_x, val_x, tmp_train_y, val_y, tmp_scores_train, scores_val = train_test_split(tmp_train_x, train_y, scores_train,
+                                                                                            test_size=val_size, random_state=val_iter+seed, stratify=train_y)
+            else:    
+                tmp_tmp_train_x, val_x, tmp_train_y, val_y, tmp_scores_train, scores_val = train_test_split(tmp_train_x, train_y, scores_train,
+                                                                                            test_size=val_size, random_state=val_iter+seed)
         
             inner.append((tmp_tmp_train_x, tmp_test_x, val_x, tmp_train_y, test_y, val_y,
                         tmp_scores_train, scores_test, scores_val))
@@ -370,7 +382,7 @@ def load_tabular_data(data_paths, train_size=-1, test_size=-1, num_exp=1, cv_fol
 
 
 def load_tabpfn_data(data_paths, train_size=-1, test_size=-1, num_exp=1, cv_folds=5,
-                      stratified=False, val_size=0.2, stack=False, use_oml=False, data_id=None):
+                      stratified=False, val_size=0.2, stack=False, use_oml=False, data_id=None, seed=0):
     """Load tabular data."""
     if use_oml:
         dataset = openml.datasets.get_dataset(data_id)
@@ -395,9 +407,9 @@ def load_tabpfn_data(data_paths, train_size=-1, test_size=-1, num_exp=1, cv_fold
         tmp_test_x = test_x.copy()
         
         if train_size>0:
-            tmp_train_x = tmp_train_x.sample(n=train_size, random_state=iter).reset_index(drop=True)
+            tmp_train_x = tmp_train_x.sample(n=train_size, random_state=iter+seed).reset_index(drop=True)
         if test_size>0:
-            tmp_test_x = tmp_test_x.sample(n=test_size, random_state=iter).reset_index(drop=True)
+            tmp_test_x = tmp_test_x.sample(n=test_size, random_state=iter+seed).reset_index(drop=True)
         tmp_train_y = tmp_train_x[target_name]
         tmp_train_x = tmp_train_x.drop([target_name], axis=1)
         tmp_test_y = tmp_test_x[target_name]
@@ -414,9 +426,9 @@ def load_tabpfn_data(data_paths, train_size=-1, test_size=-1, num_exp=1, cv_fold
         inner = []
         for val_iter in range(cv_folds):
             tmp_tmp_test_x = tmp_test_x.copy()
-            tmp_tmp_train_x, val_x, tmp_tmp_train_y, val_y = train_test_split(tmp_train_x, tmp_train_y, test_size=val_size, random_state=val_iter)
+            tmp_tmp_train_x, val_x, tmp_tmp_train_y, val_y = train_test_split(tmp_train_x, tmp_train_y, test_size=val_size, random_state=val_iter+seed)
             if tmp_tmp_train_x.shape[0] >1000:
-                pfn_x, _, pfn_y, _ = train_test_split(tmp_tmp_train_x, tmp_tmp_train_y, train_size=1000, random_state=iter)
+                pfn_x, _, pfn_y, _ = train_test_split(tmp_tmp_train_x, tmp_tmp_train_y, train_size=1000, random_state=iter+seed)
             else:
                 pfn_x = tmp_tmp_train_x
                 pfn_y = tmp_tmp_train_y

@@ -31,3 +31,6 @@ Temporary Items
 /log
 
 *__pycache__*
+oai-key.txt
+/datasets_tabllm/
+/TabLLM/

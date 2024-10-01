@@ -1,0 +1,1234 @@
+[
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 11\nGlucose: 138\nBloodPressure: 74\nSkinThickness: 26\nInsulin: 144\nBMI: 36.1\nDiabetesPedigreeFunction: 0.56\nAge: 50\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 3\nGlucose: 106\nBloodPressure: 72\nSkinThickness: 0\nInsulin: 0\nBMI: 25.8\nDiabetesPedigreeFunction: 0.21\nAge: 27\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 6\nGlucose: 117\nBloodPressure: 96\nSkinThickness: 0\nInsulin: 0\nBMI: 28.7\nDiabetesPedigreeFunction: 0.16\nAge: 30\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 2\nGlucose: 68\nBloodPressure: 62\nSkinThickness: 13\nInsulin: 15\nBMI: 20.1\nDiabetesPedigreeFunction: 0.26\nAge: 23\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 9\nGlucose: 112\nBloodPressure: 82\nSkinThickness: 24\nInsulin: 0\nBMI: 28.2\nDiabetesPedigreeFunction: 1.28\nAge: 50\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 0\nGlucose: 119\nBloodPressure: 0\nSkinThickness: 0\nInsulin: 0\nBMI: 32.4\nDiabetesPedigreeFunction: 0.14\nAge: 24\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 2\nGlucose: 112\nBloodPressure: 86\nSkinThickness: 42\nInsulin: 160\nBMI: 38.4\nDiabetesPedigreeFunction: 0.25\nAge: 28\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 2\nGlucose: 92\nBloodPressure: 76\nSkinThickness: 20\nInsulin: 0\nBMI: 24.2\nDiabetesPedigreeFunction: 1.7\nAge: 28\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 6\nGlucose: 183\nBloodPressure: 94\nSkinThickness: 0\nInsulin: 0\nBMI: 40.8\nDiabetesPedigreeFunction: 1.46\nAge: 45\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 0\nGlucose: 94\nBloodPressure: 70\nSkinThickness: 27\nInsulin: 115\nBMI: 43.5\nDiabetesPedigreeFunction: 0.35\nAge: 21\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 2\nGlucose: 108\nBloodPressure: 64\nSkinThickness: 0\nInsulin: 0\nBMI: 30.8\nDiabetesPedigreeFunction: 0.16\nAge: 21\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 4\nGlucose: 90\nBloodPressure: 88\nSkinThickness: 47\nInsulin: 54\nBMI: 37.7\nDiabetesPedigreeFunction: 0.36\nAge: 29\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 0\nGlucose: 125\nBloodPressure: 68\nSkinThickness: 0\nInsulin: 0\nBMI: 24.7\nDiabetesPedigreeFunction: 0.21\nAge: 21\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 0\nGlucose: 132\nBloodPressure: 78\nSkinThickness: 0\nInsulin: 0\nBMI: 32.4\nDiabetesPedigreeFunction: 0.39\nAge: 21\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 5\nGlucose: 128\nBloodPressure: 80\nSkinThickness: 0\nInsulin: 0\nBMI: 34.6\nDiabetesPedigreeFunction: 0.14\nAge: 45\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 4\nGlucose: 94\nBloodPressure: 65\nSkinThickness: 22\nInsulin: 0\nBMI: 24.7\nDiabetesPedigreeFunction: 0.15\nAge: 21\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 7\nGlucose: 114\nBloodPressure: 64\nSkinThickness: 0\nInsulin: 0\nBMI: 27.4\nDiabetesPedigreeFunction: 0.73\nAge: 34\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 0\nGlucose: 102\nBloodPressure: 78\nSkinThickness: 40\nInsulin: 90\nBMI: 34.5\nDiabetesPedigreeFunction: 0.24\nAge: 24\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 2\nGlucose: 111\nBloodPressure: 60\nSkinThickness: 0\nInsulin: 0\nBMI: 26.2\nDiabetesPedigreeFunction: 0.34\nAge: 23\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 1\nGlucose: 128\nBloodPressure: 82\nSkinThickness: 17\nInsulin: 183\nBMI: 27.5\nDiabetesPedigreeFunction: 0.12\nAge: 22\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 10\nGlucose: 92\nBloodPressure: 62\nSkinThickness: 0\nInsulin: 0\nBMI: 25.9\nDiabetesPedigreeFunction: 0.17\nAge: 31\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 13\nGlucose: 104\nBloodPressure: 72\nSkinThickness: 0\nInsulin: 0\nBMI: 31.2\nDiabetesPedigreeFunction: 0.46\nAge: 38\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 5\nGlucose: 104\nBloodPressure: 74\nSkinThickness: 0\nInsulin: 0\nBMI: 28.8\nDiabetesPedigreeFunction: 0.15\nAge: 48\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 2\nGlucose: 94\nBloodPressure: 76\nSkinThickness: 18\nInsulin: 66\nBMI: 31.6\nDiabetesPedigreeFunction: 0.65\nAge: 23\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 7\nGlucose: 97\nBloodPressure: 76\nSkinThickness: 32\nInsulin: 91\nBMI: 40.9\nDiabetesPedigreeFunction: 0.87\nAge: 32\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 1\nGlucose: 100\nBloodPressure: 74\nSkinThickness: 12\nInsulin: 46\nBMI: 19.5\nDiabetesPedigreeFunction: 0.15\nAge: 28\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 0\nGlucose: 102\nBloodPressure: 86\nSkinThickness: 17\nInsulin: 105\nBMI: 29.3\nDiabetesPedigreeFunction: 0.7\nAge: 27\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 4\nGlucose: 128\nBloodPressure: 70\nSkinThickness: 0\nInsulin: 0\nBMI: 34.3\nDiabetesPedigreeFunction: 0.3\nAge: 24\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 6\nGlucose: 147\nBloodPressure: 80\nSkinThickness: 0\nInsulin: 0\nBMI: 29.5\nDiabetesPedigreeFunction: 0.18\nAge: 50\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 4\nGlucose: 90\nBloodPressure: 0\nSkinThickness: 0\nInsulin: 0\nBMI: 28\nDiabetesPedigreeFunction: 0.61\nAge: 31\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 3\nGlucose: 103\nBloodPressure: 72\nSkinThickness: 30\nInsulin: 152\nBMI: 27.6\nDiabetesPedigreeFunction: 0.73\nAge: 27\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 2\nGlucose: 157\nBloodPressure: 74\nSkinThickness: 35\nInsulin: 440\nBMI: 39.4\nDiabetesPedigreeFunction: 0.13\nAge: 30\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 1\nGlucose: 167\nBloodPressure: 74\nSkinThickness: 17\nInsulin: 144\nBMI: 23.4\nDiabetesPedigreeFunction: 0.45\nAge: 33\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 0\nGlucose: 179\nBloodPressure: 50\nSkinThickness: 36\nInsulin: 159\nBMI: 37.8\nDiabetesPedigreeFunction: 0.46\nAge: 22\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 11\nGlucose: 136\nBloodPressure: 84\nSkinThickness: 35\nInsulin: 130\nBMI: 28.3\nDiabetesPedigreeFunction: 0.26\nAge: 42\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 0\nGlucose: 107\nBloodPressure: 60\nSkinThickness: 25\nInsulin: 0\nBMI: 26.4\nDiabetesPedigreeFunction: 0.13\nAge: 23\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 1\nGlucose: 91\nBloodPressure: 54\nSkinThickness: 25\nInsulin: 100\nBMI: 25.2\nDiabetesPedigreeFunction: 0.23\nAge: 23\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 1\nGlucose: 117\nBloodPressure: 60\nSkinThickness: 23\nInsulin: 106\nBMI: 33.8\nDiabetesPedigreeFunction: 0.47\nAge: 27\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 5\nGlucose: 123\nBloodPressure: 74\nSkinThickness: 40\nInsulin: 77\nBMI: 34.1\nDiabetesPedigreeFunction: 0.27\nAge: 28\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 2\nGlucose: 120\nBloodPressure: 54\nSkinThickness: 0\nInsulin: 0\nBMI: 26.8\nDiabetesPedigreeFunction: 0.46\nAge: 27\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 1\nGlucose: 106\nBloodPressure: 70\nSkinThickness: 28\nInsulin: 135\nBMI: 34.2\nDiabetesPedigreeFunction: 0.14\nAge: 22\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 2\nGlucose: 155\nBloodPressure: 52\nSkinThickness: 27\nInsulin: 540\nBMI: 38.7\nDiabetesPedigreeFunction: 0.24\nAge: 25\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 2\nGlucose: 101\nBloodPressure: 58\nSkinThickness: 35\nInsulin: 90\nBMI: 21.8\nDiabetesPedigreeFunction: 0.16\nAge: 22\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 1\nGlucose: 120\nBloodPressure: 80\nSkinThickness: 48\nInsulin: 200\nBMI: 38.9\nDiabetesPedigreeFunction: 1.16\nAge: 41\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 11\nGlucose: 127\nBloodPressure: 106\nSkinThickness: 0\nInsulin: 0\nBMI: 39\nDiabetesPedigreeFunction: 0.19\nAge: 51\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 3\nGlucose: 80\nBloodPressure: 82\nSkinThickness: 31\nInsulin: 70\nBMI: 34.2\nDiabetesPedigreeFunction: 1.29\nAge: 27\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 10\nGlucose: 162\nBloodPressure: 84\nSkinThickness: 0\nInsulin: 0\nBMI: 27.7\nDiabetesPedigreeFunction: 0.18\nAge: 54\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 1\nGlucose: 199\nBloodPressure: 76\nSkinThickness: 43\nInsulin: 0\nBMI: 42.9\nDiabetesPedigreeFunction: 1.39\nAge: 22\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 8\nGlucose: 167\nBloodPressure: 106\nSkinThickness: 46\nInsulin: 231\nBMI: 37.6\nDiabetesPedigreeFunction: 0.16\nAge: 43\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 9\nGlucose: 145\nBloodPressure: 80\nSkinThickness: 46\nInsulin: 130\nBMI: 37.9\nDiabetesPedigreeFunction: 0.64\nAge: 40\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 6\nGlucose: 115\nBloodPressure: 60\nSkinThickness: 39\nInsulin: 0\nBMI: 33.7\nDiabetesPedigreeFunction: 0.24\nAge: 40\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 1\nGlucose: 112\nBloodPressure: 80\nSkinThickness: 45\nInsulin: 132\nBMI: 34.8\nDiabetesPedigreeFunction: 0.22\nAge: 24\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 4\nGlucose: 145\nBloodPressure: 82\nSkinThickness: 18\nInsulin: 0\nBMI: 32.5\nDiabetesPedigreeFunction: 0.24\nAge: 70\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 10\nGlucose: 111\nBloodPressure: 70\nSkinThickness: 27\nInsulin: 0\nBMI: 27.5\nDiabetesPedigreeFunction: 0.14\nAge: 40\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 6\nGlucose: 98\nBloodPressure: 58\nSkinThickness: 33\nInsulin: 190\nBMI: 34\nDiabetesPedigreeFunction: 0.43\nAge: 43\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 9\nGlucose: 154\nBloodPressure: 78\nSkinThickness: 30\nInsulin: 100\nBMI: 30.9\nDiabetesPedigreeFunction: 0.16\nAge: 45\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 6\nGlucose: 165\nBloodPressure: 68\nSkinThickness: 26\nInsulin: 168\nBMI: 33.6\nDiabetesPedigreeFunction: 0.63\nAge: 49\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 1\nGlucose: 99\nBloodPressure: 58\nSkinThickness: 10\nInsulin: 0\nBMI: 25.4\nDiabetesPedigreeFunction: 0.55\nAge: 21\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 10\nGlucose: 68\nBloodPressure: 106\nSkinThickness: 23\nInsulin: 49\nBMI: 35.5\nDiabetesPedigreeFunction: 0.28\nAge: 47\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 3\nGlucose: 123\nBloodPressure: 100\nSkinThickness: 35\nInsulin: 240\nBMI: 57.3\nDiabetesPedigreeFunction: 0.88\nAge: 22\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 8\nGlucose: 91\nBloodPressure: 82\nSkinThickness: 0\nInsulin: 0\nBMI: 35.6\nDiabetesPedigreeFunction: 0.59\nAge: 68\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 6\nGlucose: 195\nBloodPressure: 70\nSkinThickness: 0\nInsulin: 0\nBMI: 30.9\nDiabetesPedigreeFunction: 0.33\nAge: 31\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 9\nGlucose: 156\nBloodPressure: 86\nSkinThickness: 0\nInsulin: 0\nBMI: 24.8\nDiabetesPedigreeFunction: 0.23\nAge: 53\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 0\nGlucose: 93\nBloodPressure: 60\nSkinThickness: 0\nInsulin: 0\nBMI: 35.3\nDiabetesPedigreeFunction: 0.26\nAge: 25\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 3\nGlucose: 121\nBloodPressure: 52\nSkinThickness: 0\nInsulin: 0\nBMI: 36\nDiabetesPedigreeFunction: 0.13\nAge: 25\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 2\nGlucose: 101\nBloodPressure: 58\nSkinThickness: 17\nInsulin: 265\nBMI: 24.2\nDiabetesPedigreeFunction: 0.61\nAge: 23\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 2\nGlucose: 56\nBloodPressure: 56\nSkinThickness: 28\nInsulin: 45\nBMI: 24.2\nDiabetesPedigreeFunction: 0.33\nAge: 22\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 0\nGlucose: 162\nBloodPressure: 76\nSkinThickness: 36\nInsulin: 0\nBMI: 49.6\nDiabetesPedigreeFunction: 0.36\nAge: 26\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 0\nGlucose: 95\nBloodPressure: 64\nSkinThickness: 39\nInsulin: 105\nBMI: 44.6\nDiabetesPedigreeFunction: 0.37\nAge: 22\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 4\nGlucose: 125\nBloodPressure: 80\nSkinThickness: 0\nInsulin: 0\nBMI: 32.3\nDiabetesPedigreeFunction: 0.54\nAge: 27\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 5\nGlucose: 136\nBloodPressure: 82\nSkinThickness: 0\nInsulin: 0\nBMI: 0\nDiabetesPedigreeFunction: 0.64\nAge: 69\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 2\nGlucose: 129\nBloodPressure: 74\nSkinThickness: 26\nInsulin: 205\nBMI: 33.2\nDiabetesPedigreeFunction: 0.59\nAge: 25\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 3\nGlucose: 130\nBloodPressure: 64\nSkinThickness: 0\nInsulin: 0\nBMI: 23.1\nDiabetesPedigreeFunction: 0.31\nAge: 22\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 1\nGlucose: 107\nBloodPressure: 50\nSkinThickness: 19\nInsulin: 0\nBMI: 28.3\nDiabetesPedigreeFunction: 0.18\nAge: 29\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 1\nGlucose: 140\nBloodPressure: 74\nSkinThickness: 26\nInsulin: 180\nBMI: 24.1\nDiabetesPedigreeFunction: 0.83\nAge: 23\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 1\nGlucose: 144\nBloodPressure: 82\nSkinThickness: 46\nInsulin: 180\nBMI: 46.1\nDiabetesPedigreeFunction: 0.34\nAge: 46\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 8\nGlucose: 107\nBloodPressure: 80\nSkinThickness: 0\nInsulin: 0\nBMI: 24.6\nDiabetesPedigreeFunction: 0.86\nAge: 34\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 13\nGlucose: 158\nBloodPressure: 114\nSkinThickness: 0\nInsulin: 0\nBMI: 42.3\nDiabetesPedigreeFunction: 0.26\nAge: 44\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 2\nGlucose: 121\nBloodPressure: 70\nSkinThickness: 32\nInsulin: 95\nBMI: 39.1\nDiabetesPedigreeFunction: 0.89\nAge: 23\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 7\nGlucose: 129\nBloodPressure: 68\nSkinThickness: 49\nInsulin: 125\nBMI: 38.5\nDiabetesPedigreeFunction: 0.44\nAge: 43\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 2\nGlucose: 90\nBloodPressure: 60\nSkinThickness: 0\nInsulin: 0\nBMI: 23.5\nDiabetesPedigreeFunction: 0.19\nAge: 25\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 7\nGlucose: 142\nBloodPressure: 90\nSkinThickness: 24\nInsulin: 480\nBMI: 30.4\nDiabetesPedigreeFunction: 0.13\nAge: 43\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 3\nGlucose: 169\nBloodPressure: 74\nSkinThickness: 19\nInsulin: 125\nBMI: 29.9\nDiabetesPedigreeFunction: 0.27\nAge: 31\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 0\nGlucose: 99\nBloodPressure: 0\nSkinThickness: 0\nInsulin: 0\nBMI: 25\nDiabetesPedigreeFunction: 0.25\nAge: 22\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 4\nGlucose: 127\nBloodPressure: 88\nSkinThickness: 11\nInsulin: 155\nBMI: 34.5\nDiabetesPedigreeFunction: 0.6\nAge: 28\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 4\nGlucose: 118\nBloodPressure: 70\nSkinThickness: 0\nInsulin: 0\nBMI: 44.5\nDiabetesPedigreeFunction: 0.9\nAge: 26\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 2\nGlucose: 122\nBloodPressure: 76\nSkinThickness: 27\nInsulin: 200\nBMI: 35.9\nDiabetesPedigreeFunction: 0.48\nAge: 26\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 6\nGlucose: 125\nBloodPressure: 78\nSkinThickness: 31\nInsulin: 0\nBMI: 27.6\nDiabetesPedigreeFunction: 0.56\nAge: 49\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 1\nGlucose: 168\nBloodPressure: 88\nSkinThickness: 29\nInsulin: 0\nBMI: 35\nDiabetesPedigreeFunction: 0.9\nAge: 52\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 2\nGlucose: 129\nBloodPressure: 0\nSkinThickness: 0\nInsulin: 0\nBMI: 38.5\nDiabetesPedigreeFunction: 0.3\nAge: 41\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 4\nGlucose: 110\nBloodPressure: 76\nSkinThickness: 20\nInsulin: 100\nBMI: 28.4\nDiabetesPedigreeFunction: 0.12\nAge: 27\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 6\nGlucose: 80\nBloodPressure: 80\nSkinThickness: 36\nInsulin: 0\nBMI: 39.8\nDiabetesPedigreeFunction: 0.18\nAge: 28\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 10\nGlucose: 115\nBloodPressure: 0\nSkinThickness: 0\nInsulin: 0\nBMI: 0\nDiabetesPedigreeFunction: 0.26\nAge: 30\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 2\nGlucose: 127\nBloodPressure: 46\nSkinThickness: 21\nInsulin: 335\nBMI: 34.4\nDiabetesPedigreeFunction: 0.18\nAge: 22\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 9\nGlucose: 164\nBloodPressure: 78\nSkinThickness: 0\nInsulin: 0\nBMI: 32.8\nDiabetesPedigreeFunction: 0.15\nAge: 45\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 2\nGlucose: 93\nBloodPressure: 64\nSkinThickness: 32\nInsulin: 160\nBMI: 38\nDiabetesPedigreeFunction: 0.67\nAge: 23\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 3\nGlucose: 158\nBloodPressure: 64\nSkinThickness: 13\nInsulin: 387\nBMI: 31.2\nDiabetesPedigreeFunction: 0.3\nAge: 24\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 5\nGlucose: 126\nBloodPressure: 78\nSkinThickness: 27\nInsulin: 22\nBMI: 29.6\nDiabetesPedigreeFunction: 0.44\nAge: 40\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 10\nGlucose: 129\nBloodPressure: 62\nSkinThickness: 36\nInsulin: 0\nBMI: 41.2\nDiabetesPedigreeFunction: 0.44\nAge: 38\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 0\nGlucose: 134\nBloodPressure: 58\nSkinThickness: 20\nInsulin: 291\nBMI: 26.4\nDiabetesPedigreeFunction: 0.35\nAge: 21\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 3\nGlucose: 102\nBloodPressure: 74\nSkinThickness: 0\nInsulin: 0\nBMI: 29.5\nDiabetesPedigreeFunction: 0.12\nAge: 32\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 7\nGlucose: 187\nBloodPressure: 50\nSkinThickness: 33\nInsulin: 392\nBMI: 33.9\nDiabetesPedigreeFunction: 0.83\nAge: 34\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 3\nGlucose: 173\nBloodPressure: 78\nSkinThickness: 39\nInsulin: 185\nBMI: 33.8\nDiabetesPedigreeFunction: 0.97\nAge: 31\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 10\nGlucose: 94\nBloodPressure: 72\nSkinThickness: 18\nInsulin: 0\nBMI: 23.1\nDiabetesPedigreeFunction: 0.6\nAge: 56\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 1\nGlucose: 108\nBloodPressure: 60\nSkinThickness: 46\nInsulin: 178\nBMI: 35.5\nDiabetesPedigreeFunction: 0.42\nAge: 24\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 5\nGlucose: 97\nBloodPressure: 76\nSkinThickness: 27\nInsulin: 0\nBMI: 35.6\nDiabetesPedigreeFunction: 0.38\nAge: 52\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 4\nGlucose: 83\nBloodPressure: 86\nSkinThickness: 19\nInsulin: 0\nBMI: 29.3\nDiabetesPedigreeFunction: 0.32\nAge: 34\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 1\nGlucose: 114\nBloodPressure: 66\nSkinThickness: 36\nInsulin: 200\nBMI: 38.1\nDiabetesPedigreeFunction: 0.29\nAge: 21\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 1\nGlucose: 149\nBloodPressure: 68\nSkinThickness: 29\nInsulin: 127\nBMI: 29.3\nDiabetesPedigreeFunction: 0.35\nAge: 42\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 5\nGlucose: 117\nBloodPressure: 86\nSkinThickness: 30\nInsulin: 105\nBMI: 39.1\nDiabetesPedigreeFunction: 0.25\nAge: 42\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 1\nGlucose: 111\nBloodPressure: 94\nSkinThickness: 0\nInsulin: 0\nBMI: 32.8\nDiabetesPedigreeFunction: 0.26\nAge: 45\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 4\nGlucose: 112\nBloodPressure: 78\nSkinThickness: 40\nInsulin: 0\nBMI: 39.4\nDiabetesPedigreeFunction: 0.24\nAge: 38\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 1\nGlucose: 116\nBloodPressure: 78\nSkinThickness: 29\nInsulin: 180\nBMI: 36.1\nDiabetesPedigreeFunction: 0.5\nAge: 25\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 0\nGlucose: 141\nBloodPressure: 84\nSkinThickness: 26\nInsulin: 0\nBMI: 32.4\nDiabetesPedigreeFunction: 0.43\nAge: 22\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 2\nGlucose: 175\nBloodPressure: 88\nSkinThickness: 0\nInsulin: 0\nBMI: 22.9\nDiabetesPedigreeFunction: 0.33\nAge: 22\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 2\nGlucose: 92\nBloodPressure: 52\nSkinThickness: 0\nInsulin: 0\nBMI: 30.1\nDiabetesPedigreeFunction: 0.14\nAge: 22\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 3\nGlucose: 130\nBloodPressure: 78\nSkinThickness: 23\nInsulin: 79\nBMI: 28.4\nDiabetesPedigreeFunction: 0.32\nAge: 34\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 8\nGlucose: 120\nBloodPressure: 86\nSkinThickness: 0\nInsulin: 0\nBMI: 28.4\nDiabetesPedigreeFunction: 0.26\nAge: 22\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 2\nGlucose: 174\nBloodPressure: 88\nSkinThickness: 37\nInsulin: 120\nBMI: 44.5\nDiabetesPedigreeFunction: 0.65\nAge: 24\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 2\nGlucose: 106\nBloodPressure: 56\nSkinThickness: 27\nInsulin: 165\nBMI: 29\nDiabetesPedigreeFunction: 0.43\nAge: 22\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 2\nGlucose: 105\nBloodPressure: 75\nSkinThickness: 0\nInsulin: 0\nBMI: 23.3\nDiabetesPedigreeFunction: 0.56\nAge: 53\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 4\nGlucose: 95\nBloodPressure: 60\nSkinThickness: 32\nInsulin: 0\nBMI: 35.4\nDiabetesPedigreeFunction: 0.28\nAge: 28\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 0\nGlucose: 126\nBloodPressure: 86\nSkinThickness: 27\nInsulin: 120\nBMI: 27.4\nDiabetesPedigreeFunction: 0.52\nAge: 21\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 8\nGlucose: 65\nBloodPressure: 72\nSkinThickness: 23\nInsulin: 0\nBMI: 32\nDiabetesPedigreeFunction: 0.6\nAge: 42\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 2\nGlucose: 99\nBloodPressure: 60\nSkinThickness: 17\nInsulin: 160\nBMI: 36.6\nDiabetesPedigreeFunction: 0.45\nAge: 21\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 1\nGlucose: 102\nBloodPressure: 74\nSkinThickness: 0\nInsulin: 0\nBMI: 39.5\nDiabetesPedigreeFunction: 0.29\nAge: 42\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 11\nGlucose: 120\nBloodPressure: 80\nSkinThickness: 37\nInsulin: 150\nBMI: 42.3\nDiabetesPedigreeFunction: 0.78\nAge: 48\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 3\nGlucose: 102\nBloodPressure: 44\nSkinThickness: 20\nInsulin: 94\nBMI: 30.8\nDiabetesPedigreeFunction: 0.4\nAge: 26\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 1\nGlucose: 109\nBloodPressure: 58\nSkinThickness: 18\nInsulin: 116\nBMI: 28.5\nDiabetesPedigreeFunction: 0.22\nAge: 22\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 9\nGlucose: 140\nBloodPressure: 94\nSkinThickness: 0\nInsulin: 0\nBMI: 32.7\nDiabetesPedigreeFunction: 0.73\nAge: 45\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 13\nGlucose: 153\nBloodPressure: 88\nSkinThickness: 37\nInsulin: 140\nBMI: 40.6\nDiabetesPedigreeFunction: 1.17\nAge: 39\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 12\nGlucose: 100\nBloodPressure: 84\nSkinThickness: 33\nInsulin: 105\nBMI: 30\nDiabetesPedigreeFunction: 0.49\nAge: 46\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 1\nGlucose: 147\nBloodPressure: 94\nSkinThickness: 41\nInsulin: 0\nBMI: 49.3\nDiabetesPedigreeFunction: 0.36\nAge: 27\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 1\nGlucose: 81\nBloodPressure: 74\nSkinThickness: 41\nInsulin: 57\nBMI: 46.3\nDiabetesPedigreeFunction: 1.1\nAge: 32\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 3\nGlucose: 187\nBloodPressure: 70\nSkinThickness: 22\nInsulin: 200\nBMI: 36.4\nDiabetesPedigreeFunction: 0.41\nAge: 36\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 6\nGlucose: 162\nBloodPressure: 62\nSkinThickness: 0\nInsulin: 0\nBMI: 24.3\nDiabetesPedigreeFunction: 0.18\nAge: 50\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 4\nGlucose: 136\nBloodPressure: 70\nSkinThickness: 0\nInsulin: 0\nBMI: 31.2\nDiabetesPedigreeFunction: 1.18\nAge: 22\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 1\nGlucose: 121\nBloodPressure: 78\nSkinThickness: 39\nInsulin: 74\nBMI: 39\nDiabetesPedigreeFunction: 0.26\nAge: 28\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 3\nGlucose: 108\nBloodPressure: 62\nSkinThickness: 24\nInsulin: 0\nBMI: 26\nDiabetesPedigreeFunction: 0.22\nAge: 25\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 0\nGlucose: 181\nBloodPressure: 88\nSkinThickness: 44\nInsulin: 510\nBMI: 43.3\nDiabetesPedigreeFunction: 0.22\nAge: 26\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 8\nGlucose: 154\nBloodPressure: 78\nSkinThickness: 32\nInsulin: 0\nBMI: 32.4\nDiabetesPedigreeFunction: 0.44\nAge: 45\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 1\nGlucose: 128\nBloodPressure: 88\nSkinThickness: 39\nInsulin: 110\nBMI: 36.5\nDiabetesPedigreeFunction: 1.06\nAge: 37\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 7\nGlucose: 137\nBloodPressure: 90\nSkinThickness: 41\nInsulin: 0\nBMI: 32\nDiabetesPedigreeFunction: 0.39\nAge: 39\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 0\nGlucose: 123\nBloodPressure: 72\nSkinThickness: 0\nInsulin: 0\nBMI: 36.3\nDiabetesPedigreeFunction: 0.26\nAge: 52\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 1\nGlucose: 106\nBloodPressure: 76\nSkinThickness: 0\nInsulin: 0\nBMI: 37.5\nDiabetesPedigreeFunction: 0.2\nAge: 26\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 6\nGlucose: 190\nBloodPressure: 92\nSkinThickness: 0\nInsulin: 0\nBMI: 35.5\nDiabetesPedigreeFunction: 0.28\nAge: 66\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 2\nGlucose: 88\nBloodPressure: 58\nSkinThickness: 26\nInsulin: 16\nBMI: 28.4\nDiabetesPedigreeFunction: 0.77\nAge: 22\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 9\nGlucose: 170\nBloodPressure: 74\nSkinThickness: 31\nInsulin: 0\nBMI: 44\nDiabetesPedigreeFunction: 0.4\nAge: 43\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 9\nGlucose: 89\nBloodPressure: 62\nSkinThickness: 0\nInsulin: 0\nBMI: 22.5\nDiabetesPedigreeFunction: 0.14\nAge: 33\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 10\nGlucose: 101\nBloodPressure: 76\nSkinThickness: 48\nInsulin: 180\nBMI: 32.9\nDiabetesPedigreeFunction: 0.17\nAge: 63\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 2\nGlucose: 122\nBloodPressure: 70\nSkinThickness: 27\nInsulin: 0\nBMI: 36.8\nDiabetesPedigreeFunction: 0.34\nAge: 27\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 5\nGlucose: 121\nBloodPressure: 72\nSkinThickness: 23\nInsulin: 112\nBMI: 26.2\nDiabetesPedigreeFunction: 0.24\nAge: 30\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Pregnancies: 1\nGlucose: 126\nBloodPressure: 60\nSkinThickness: 0\nInsulin: 0\nBMI: 30.1\nDiabetesPedigreeFunction: 0.35\nAge: 47\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has diabetes.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Pregnancies: 1\nGlucose: 93\nBloodPressure: 70\nSkinThickness: 31\nInsulin: 0\nBMI: 30.4\nDiabetesPedigreeFunction: 0.32\nAge: 23\n"
+    }
+]

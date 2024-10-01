@@ -1,0 +1,1474 @@
+[
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 56\nSex: M\nChestPainType: ASY\nRestingBP: 130\nCholesterol: 283\nFastingBS: 1\nRestingECG: LVH\nMaxHR: 103\nExerciseAngina: Y\nOldpeak: 1.6\nST Slope: Down\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 49\nSex: M\nChestPainType: NAP\nRestingBP: 120\nCholesterol: 188\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 139\nExerciseAngina: N\nOldpeak: 2\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 54\nSex: M\nChestPainType: ASY\nRestingBP: 122\nCholesterol: 286\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 116\nExerciseAngina: Y\nOldpeak: 3.2\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 57\nSex: M\nChestPainType: ASY\nRestingBP: 152\nCholesterol: 274\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 88\nExerciseAngina: Y\nOldpeak: 1.2\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 65\nSex: F\nChestPainType: NAP\nRestingBP: 160\nCholesterol: 360\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 151\nExerciseAngina: N\nOldpeak: 0.8\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 54\nSex: M\nChestPainType: NAP\nRestingBP: 125\nCholesterol: 273\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 152\nExerciseAngina: N\nOldpeak: 0.5\nST Slope: Down\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 54\nSex: F\nChestPainType: NAP\nRestingBP: 160\nCholesterol: 201\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 163\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 62\nSex: M\nChestPainType: ASY\nRestingBP: 120\nCholesterol: 267\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 99\nExerciseAngina: Y\nOldpeak: 1.8\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 52\nSex: F\nChestPainType: NAP\nRestingBP: 136\nCholesterol: 196\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 169\nExerciseAngina: N\nOldpeak: 0.1\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 52\nSex: M\nChestPainType: ATA\nRestingBP: 134\nCholesterol: 201\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 158\nExerciseAngina: N\nOldpeak: 0.8\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 60\nSex: M\nChestPainType: ASY\nRestingBP: 117\nCholesterol: 230\nFastingBS: 1\nRestingECG: Normal\nMaxHR: 160\nExerciseAngina: Y\nOldpeak: 1.4\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 63\nSex: F\nChestPainType: ASY\nRestingBP: 108\nCholesterol: 269\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 169\nExerciseAngina: Y\nOldpeak: 1.8\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 66\nSex: M\nChestPainType: ASY\nRestingBP: 112\nCholesterol: 212\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 132\nExerciseAngina: Y\nOldpeak: 0.1\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 42\nSex: M\nChestPainType: ASY\nRestingBP: 140\nCholesterol: 226\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 178\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 64\nSex: M\nChestPainType: ASY\nRestingBP: 120\nCholesterol: 246\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 96\nExerciseAngina: Y\nOldpeak: 2.2\nST Slope: Down\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 54\nSex: M\nChestPainType: NAP\nRestingBP: 150\nCholesterol: 232\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 165\nExerciseAngina: N\nOldpeak: 1.6\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 46\nSex: F\nChestPainType: NAP\nRestingBP: 142\nCholesterol: 177\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 160\nExerciseAngina: Y\nOldpeak: 1.4\nST Slope: Down\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 67\nSex: F\nChestPainType: NAP\nRestingBP: 152\nCholesterol: 277\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 172\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 56\nSex: M\nChestPainType: ASY\nRestingBP: 125\nCholesterol: 249\nFastingBS: 1\nRestingECG: LVH\nMaxHR: 144\nExerciseAngina: Y\nOldpeak: 1.2\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 34\nSex: F\nChestPainType: ATA\nRestingBP: 118\nCholesterol: 210\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 192\nExerciseAngina: N\nOldpeak: 0.7\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 57\nSex: M\nChestPainType: ASY\nRestingBP: 132\nCholesterol: 207\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 168\nExerciseAngina: Y\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 64\nSex: M\nChestPainType: ASY\nRestingBP: 145\nCholesterol: 212\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 132\nExerciseAngina: N\nOldpeak: 2\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 59\nSex: M\nChestPainType: ASY\nRestingBP: 138\nCholesterol: 271\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 182\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 50\nSex: M\nChestPainType: NAP\nRestingBP: 140\nCholesterol: 233\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 163\nExerciseAngina: N\nOldpeak: 0.6\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 51\nSex: M\nChestPainType: TA\nRestingBP: 125\nCholesterol: 213\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 125\nExerciseAngina: Y\nOldpeak: 1.4\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 54\nSex: M\nChestPainType: ATA\nRestingBP: 192\nCholesterol: 283\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 195\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 53\nSex: M\nChestPainType: ASY\nRestingBP: 123\nCholesterol: 282\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 95\nExerciseAngina: Y\nOldpeak: 2\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 52\nSex: M\nChestPainType: ASY\nRestingBP: 112\nCholesterol: 230\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 160\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 40\nSex: M\nChestPainType: ASY\nRestingBP: 110\nCholesterol: 167\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 114\nExerciseAngina: Y\nOldpeak: 2\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 58\nSex: M\nChestPainType: NAP\nRestingBP: 132\nCholesterol: 224\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 173\nExerciseAngina: N\nOldpeak: 3.2\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 41\nSex: F\nChestPainType: NAP\nRestingBP: 112\nCholesterol: 268\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 172\nExerciseAngina: Y\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 41\nSex: M\nChestPainType: NAP\nRestingBP: 112\nCholesterol: 250\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 179\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 50\nSex: F\nChestPainType: NAP\nRestingBP: 120\nCholesterol: 219\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 158\nExerciseAngina: N\nOldpeak: 1.6\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 54\nSex: F\nChestPainType: NAP\nRestingBP: 108\nCholesterol: 267\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 167\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 64\nSex: F\nChestPainType: ASY\nRestingBP: 130\nCholesterol: 303\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 122\nExerciseAngina: N\nOldpeak: 2\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 51\nSex: F\nChestPainType: NAP\nRestingBP: 130\nCholesterol: 256\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 149\nExerciseAngina: N\nOldpeak: 0.5\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 46\nSex: F\nChestPainType: ATA\nRestingBP: 105\nCholesterol: 204\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 172\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 55\nSex: M\nChestPainType: ASY\nRestingBP: 140\nCholesterol: 217\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 111\nExerciseAngina: Y\nOldpeak: 5.6\nST Slope: Down\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 45\nSex: M\nChestPainType: ATA\nRestingBP: 128\nCholesterol: 308\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 170\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 56\nSex: M\nChestPainType: TA\nRestingBP: 120\nCholesterol: 193\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 162\nExerciseAngina: N\nOldpeak: 1.9\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 66\nSex: F\nChestPainType: ASY\nRestingBP: 178\nCholesterol: 228\nFastingBS: 1\nRestingECG: Normal\nMaxHR: 165\nExerciseAngina: Y\nOldpeak: 1\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 38\nSex: M\nChestPainType: TA\nRestingBP: 120\nCholesterol: 231\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 182\nExerciseAngina: Y\nOldpeak: 3.8\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 62\nSex: F\nChestPainType: ASY\nRestingBP: 150\nCholesterol: 244\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 154\nExerciseAngina: Y\nOldpeak: 1.4\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 55\nSex: M\nChestPainType: ATA\nRestingBP: 130\nCholesterol: 262\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 155\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 58\nSex: M\nChestPainType: ASY\nRestingBP: 128\nCholesterol: 259\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 130\nExerciseAngina: Y\nOldpeak: 3\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 43\nSex: M\nChestPainType: ASY\nRestingBP: 110\nCholesterol: 211\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 161\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 64\nSex: F\nChestPainType: ASY\nRestingBP: 180\nCholesterol: 325\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 154\nExerciseAngina: Y\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 50\nSex: F\nChestPainType: ASY\nRestingBP: 110\nCholesterol: 254\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 159\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 53\nSex: M\nChestPainType: NAP\nRestingBP: 130\nCholesterol: 197\nFastingBS: 1\nRestingECG: LVH\nMaxHR: 152\nExerciseAngina: N\nOldpeak: 1.2\nST Slope: Down\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 45\nSex: F\nChestPainType: ASY\nRestingBP: 138\nCholesterol: 236\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 152\nExerciseAngina: Y\nOldpeak: 0.2\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 65\nSex: M\nChestPainType: TA\nRestingBP: 138\nCholesterol: 282\nFastingBS: 1\nRestingECG: LVH\nMaxHR: 174\nExerciseAngina: N\nOldpeak: 1.4\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 69\nSex: M\nChestPainType: TA\nRestingBP: 160\nCholesterol: 234\nFastingBS: 1\nRestingECG: LVH\nMaxHR: 131\nExerciseAngina: N\nOldpeak: 0.1\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 69\nSex: M\nChestPainType: NAP\nRestingBP: 140\nCholesterol: 254\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 146\nExerciseAngina: N\nOldpeak: 2\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 67\nSex: M\nChestPainType: ASY\nRestingBP: 100\nCholesterol: 299\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 125\nExerciseAngina: Y\nOldpeak: 0.9\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 68\nSex: F\nChestPainType: NAP\nRestingBP: 120\nCholesterol: 211\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 115\nExerciseAngina: N\nOldpeak: 1.5\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 34\nSex: M\nChestPainType: TA\nRestingBP: 118\nCholesterol: 182\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 174\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 62\nSex: F\nChestPainType: ASY\nRestingBP: 138\nCholesterol: 294\nFastingBS: 1\nRestingECG: Normal\nMaxHR: 106\nExerciseAngina: N\nOldpeak: 1.9\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 51\nSex: M\nChestPainType: ASY\nRestingBP: 140\nCholesterol: 298\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 122\nExerciseAngina: Y\nOldpeak: 4.2\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 46\nSex: M\nChestPainType: NAP\nRestingBP: 150\nCholesterol: 231\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 147\nExerciseAngina: N\nOldpeak: 3.6\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 67\nSex: M\nChestPainType: ASY\nRestingBP: 125\nCholesterol: 254\nFastingBS: 1\nRestingECG: Normal\nMaxHR: 163\nExerciseAngina: N\nOldpeak: 0.2\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 50\nSex: M\nChestPainType: NAP\nRestingBP: 129\nCholesterol: 196\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 163\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 42\nSex: M\nChestPainType: NAP\nRestingBP: 120\nCholesterol: 240\nFastingBS: 1\nRestingECG: Normal\nMaxHR: 194\nExerciseAngina: N\nOldpeak: 0.8\nST Slope: Down\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 56\nSex: F\nChestPainType: ASY\nRestingBP: 134\nCholesterol: 409\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 150\nExerciseAngina: Y\nOldpeak: 1.9\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 41\nSex: M\nChestPainType: ASY\nRestingBP: 110\nCholesterol: 172\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 158\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 42\nSex: F\nChestPainType: ASY\nRestingBP: 102\nCholesterol: 265\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 122\nExerciseAngina: N\nOldpeak: 0.6\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 53\nSex: M\nChestPainType: NAP\nRestingBP: 130\nCholesterol: 246\nFastingBS: 1\nRestingECG: LVH\nMaxHR: 173\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 43\nSex: M\nChestPainType: NAP\nRestingBP: 130\nCholesterol: 315\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 162\nExerciseAngina: N\nOldpeak: 1.9\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 56\nSex: M\nChestPainType: ASY\nRestingBP: 132\nCholesterol: 184\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 105\nExerciseAngina: Y\nOldpeak: 2.1\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 52\nSex: M\nChestPainType: ASY\nRestingBP: 108\nCholesterol: 233\nFastingBS: 1\nRestingECG: Normal\nMaxHR: 147\nExerciseAngina: N\nOldpeak: 0.1\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 62\nSex: F\nChestPainType: ASY\nRestingBP: 140\nCholesterol: 394\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 157\nExerciseAngina: N\nOldpeak: 1.2\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 70\nSex: M\nChestPainType: NAP\nRestingBP: 160\nCholesterol: 269\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 112\nExerciseAngina: Y\nOldpeak: 2.9\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 54\nSex: M\nChestPainType: ASY\nRestingBP: 140\nCholesterol: 239\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 160\nExerciseAngina: N\nOldpeak: 1.2\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 70\nSex: M\nChestPainType: ASY\nRestingBP: 145\nCholesterol: 174\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 125\nExerciseAngina: Y\nOldpeak: 2.6\nST Slope: Down\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 54\nSex: M\nChestPainType: ATA\nRestingBP: 108\nCholesterol: 309\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 156\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 35\nSex: M\nChestPainType: ASY\nRestingBP: 126\nCholesterol: 282\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 156\nExerciseAngina: Y\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 48\nSex: M\nChestPainType: NAP\nRestingBP: 124\nCholesterol: 255\nFastingBS: 1\nRestingECG: Normal\nMaxHR: 175\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 55\nSex: F\nChestPainType: ATA\nRestingBP: 135\nCholesterol: 250\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 161\nExerciseAngina: N\nOldpeak: 1.4\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 58\nSex: F\nChestPainType: ASY\nRestingBP: 100\nCholesterol: 248\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 122\nExerciseAngina: N\nOldpeak: 1\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 54\nSex: F\nChestPainType: NAP\nRestingBP: 110\nCholesterol: 214\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 158\nExerciseAngina: N\nOldpeak: 1.6\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 69\nSex: F\nChestPainType: TA\nRestingBP: 140\nCholesterol: 239\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 151\nExerciseAngina: N\nOldpeak: 1.8\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 77\nSex: M\nChestPainType: ASY\nRestingBP: 125\nCholesterol: 304\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 162\nExerciseAngina: Y\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 68\nSex: M\nChestPainType: NAP\nRestingBP: 118\nCholesterol: 277\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 151\nExerciseAngina: N\nOldpeak: 1\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 58\nSex: M\nChestPainType: ASY\nRestingBP: 125\nCholesterol: 300\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 171\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 60\nSex: M\nChestPainType: ASY\nRestingBP: 125\nCholesterol: 258\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 141\nExerciseAngina: Y\nOldpeak: 2.8\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 51\nSex: M\nChestPainType: ASY\nRestingBP: 140\nCholesterol: 299\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 173\nExerciseAngina: Y\nOldpeak: 1.6\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 55\nSex: M\nChestPainType: ASY\nRestingBP: 160\nCholesterol: 289\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 145\nExerciseAngina: Y\nOldpeak: 0.8\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 52\nSex: M\nChestPainType: TA\nRestingBP: 152\nCholesterol: 298\nFastingBS: 1\nRestingECG: Normal\nMaxHR: 178\nExerciseAngina: N\nOldpeak: 1.2\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 60\nSex: F\nChestPainType: NAP\nRestingBP: 102\nCholesterol: 318\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 160\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 58\nSex: M\nChestPainType: NAP\nRestingBP: 105\nCholesterol: 240\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 154\nExerciseAngina: Y\nOldpeak: 0.6\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 64\nSex: M\nChestPainType: NAP\nRestingBP: 125\nCholesterol: 309\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 131\nExerciseAngina: Y\nOldpeak: 1.8\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 37\nSex: M\nChestPainType: NAP\nRestingBP: 130\nCholesterol: 250\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 187\nExerciseAngina: N\nOldpeak: 3.5\nST Slope: Down\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 59\nSex: M\nChestPainType: TA\nRestingBP: 170\nCholesterol: 288\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 159\nExerciseAngina: N\nOldpeak: 0.2\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 51\nSex: M\nChestPainType: NAP\nRestingBP: 125\nCholesterol: 245\nFastingBS: 1\nRestingECG: LVH\nMaxHR: 166\nExerciseAngina: N\nOldpeak: 2.4\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 43\nSex: F\nChestPainType: NAP\nRestingBP: 122\nCholesterol: 213\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 165\nExerciseAngina: N\nOldpeak: 0.2\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 58\nSex: M\nChestPainType: ASY\nRestingBP: 128\nCholesterol: 216\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 131\nExerciseAngina: Y\nOldpeak: 2.2\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 29\nSex: M\nChestPainType: ATA\nRestingBP: 130\nCholesterol: 204\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 202\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 41\nSex: F\nChestPainType: ATA\nRestingBP: 130\nCholesterol: 204\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 172\nExerciseAngina: N\nOldpeak: 1.4\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 63\nSex: F\nChestPainType: NAP\nRestingBP: 135\nCholesterol: 252\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 172\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 51\nSex: M\nChestPainType: NAP\nRestingBP: 94\nCholesterol: 227\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 154\nExerciseAngina: Y\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 54\nSex: M\nChestPainType: NAP\nRestingBP: 120\nCholesterol: 258\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 147\nExerciseAngina: N\nOldpeak: 0.4\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 44\nSex: M\nChestPainType: ATA\nRestingBP: 120\nCholesterol: 220\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 170\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 54\nSex: M\nChestPainType: ASY\nRestingBP: 110\nCholesterol: 239\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 126\nExerciseAngina: Y\nOldpeak: 2.8\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 65\nSex: M\nChestPainType: ASY\nRestingBP: 135\nCholesterol: 254\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 127\nExerciseAngina: N\nOldpeak: 2.8\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 57\nSex: M\nChestPainType: NAP\nRestingBP: 150\nCholesterol: 168\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 174\nExerciseAngina: N\nOldpeak: 1.6\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 63\nSex: M\nChestPainType: ASY\nRestingBP: 130\nCholesterol: 330\nFastingBS: 1\nRestingECG: LVH\nMaxHR: 132\nExerciseAngina: Y\nOldpeak: 1.8\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 35\nSex: F\nChestPainType: ASY\nRestingBP: 138\nCholesterol: 183\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 182\nExerciseAngina: N\nOldpeak: 1.4\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 41\nSex: M\nChestPainType: ATA\nRestingBP: 135\nCholesterol: 203\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 132\nExerciseAngina: N\nOldpeak: 0\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 62\nSex: F\nChestPainType: NAP\nRestingBP: 130\nCholesterol: 263\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 97\nExerciseAngina: N\nOldpeak: 1.2\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 43\nSex: F\nChestPainType: ASY\nRestingBP: 132\nCholesterol: 341\nFastingBS: 1\nRestingECG: LVH\nMaxHR: 136\nExerciseAngina: Y\nOldpeak: 3\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 58\nSex: F\nChestPainType: TA\nRestingBP: 150\nCholesterol: 283\nFastingBS: 1\nRestingECG: LVH\nMaxHR: 162\nExerciseAngina: N\nOldpeak: 1\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 52\nSex: M\nChestPainType: TA\nRestingBP: 118\nCholesterol: 186\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 190\nExerciseAngina: N\nOldpeak: 0\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 61\nSex: F\nChestPainType: ASY\nRestingBP: 145\nCholesterol: 307\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 146\nExerciseAngina: Y\nOldpeak: 1\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 39\nSex: M\nChestPainType: ASY\nRestingBP: 118\nCholesterol: 219\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 140\nExerciseAngina: N\nOldpeak: 1.2\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 45\nSex: M\nChestPainType: ASY\nRestingBP: 115\nCholesterol: 260\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 185\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 52\nSex: M\nChestPainType: ASY\nRestingBP: 128\nCholesterol: 255\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 161\nExerciseAngina: Y\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 62\nSex: M\nChestPainType: NAP\nRestingBP: 130\nCholesterol: 231\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 146\nExerciseAngina: N\nOldpeak: 1.8\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 62\nSex: F\nChestPainType: ASY\nRestingBP: 160\nCholesterol: 164\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 145\nExerciseAngina: N\nOldpeak: 6.2\nST Slope: Down\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 53\nSex: F\nChestPainType: ASY\nRestingBP: 138\nCholesterol: 234\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 160\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 43\nSex: M\nChestPainType: ASY\nRestingBP: 120\nCholesterol: 177\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 120\nExerciseAngina: Y\nOldpeak: 2.5\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 47\nSex: M\nChestPainType: NAP\nRestingBP: 138\nCholesterol: 257\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 156\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 52\nSex: M\nChestPainType: ATA\nRestingBP: 120\nCholesterol: 325\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 172\nExerciseAngina: N\nOldpeak: 0.2\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 68\nSex: M\nChestPainType: NAP\nRestingBP: 180\nCholesterol: 274\nFastingBS: 1\nRestingECG: LVH\nMaxHR: 150\nExerciseAngina: Y\nOldpeak: 1.6\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 39\nSex: M\nChestPainType: NAP\nRestingBP: 140\nCholesterol: 321\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 182\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 53\nSex: F\nChestPainType: ASY\nRestingBP: 130\nCholesterol: 264\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 143\nExerciseAngina: N\nOldpeak: 0.4\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 62\nSex: F\nChestPainType: ASY\nRestingBP: 140\nCholesterol: 268\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 160\nExerciseAngina: N\nOldpeak: 3.6\nST Slope: Down\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 51\nSex: F\nChestPainType: NAP\nRestingBP: 140\nCholesterol: 308\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 142\nExerciseAngina: N\nOldpeak: 1.5\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 60\nSex: M\nChestPainType: ASY\nRestingBP: 130\nCholesterol: 253\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 144\nExerciseAngina: Y\nOldpeak: 1.4\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 65\nSex: M\nChestPainType: ASY\nRestingBP: 110\nCholesterol: 248\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 158\nExerciseAngina: N\nOldpeak: 0.6\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 65\nSex: F\nChestPainType: NAP\nRestingBP: 155\nCholesterol: 269\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 148\nExerciseAngina: N\nOldpeak: 0.8\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 60\nSex: M\nChestPainType: NAP\nRestingBP: 140\nCholesterol: 185\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 155\nExerciseAngina: N\nOldpeak: 3\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 60\nSex: M\nChestPainType: ASY\nRestingBP: 145\nCholesterol: 282\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 142\nExerciseAngina: Y\nOldpeak: 2.8\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 54\nSex: M\nChestPainType: ASY\nRestingBP: 120\nCholesterol: 188\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 113\nExerciseAngina: N\nOldpeak: 1.4\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 44\nSex: M\nChestPainType: ATA\nRestingBP: 130\nCholesterol: 219\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 188\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 44\nSex: M\nChestPainType: ASY\nRestingBP: 112\nCholesterol: 290\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 153\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 51\nSex: M\nChestPainType: NAP\nRestingBP: 110\nCholesterol: 175\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 123\nExerciseAngina: N\nOldpeak: 0.6\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 59\nSex: M\nChestPainType: NAP\nRestingBP: 150\nCholesterol: 212\nFastingBS: 1\nRestingECG: Normal\nMaxHR: 157\nExerciseAngina: N\nOldpeak: 1.6\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 71\nSex: F\nChestPainType: ATA\nRestingBP: 160\nCholesterol: 302\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 162\nExerciseAngina: N\nOldpeak: 0.4\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 61\nSex: M\nChestPainType: NAP\nRestingBP: 150\nCholesterol: 243\nFastingBS: 1\nRestingECG: Normal\nMaxHR: 137\nExerciseAngina: Y\nOldpeak: 1\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 55\nSex: M\nChestPainType: ASY\nRestingBP: 132\nCholesterol: 353\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 132\nExerciseAngina: Y\nOldpeak: 1.2\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 64\nSex: M\nChestPainType: NAP\nRestingBP: 140\nCholesterol: 335\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 158\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 43\nSex: M\nChestPainType: ASY\nRestingBP: 150\nCholesterol: 247\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 171\nExerciseAngina: N\nOldpeak: 1.5\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 58\nSex: F\nChestPainType: NAP\nRestingBP: 120\nCholesterol: 340\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 172\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 60\nSex: M\nChestPainType: ASY\nRestingBP: 130\nCholesterol: 206\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 132\nExerciseAngina: Y\nOldpeak: 2.4\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 58\nSex: M\nChestPainType: ATA\nRestingBP: 120\nCholesterol: 284\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 160\nExerciseAngina: N\nOldpeak: 1.8\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 49\nSex: M\nChestPainType: ATA\nRestingBP: 130\nCholesterol: 266\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 171\nExerciseAngina: N\nOldpeak: 0.6\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 48\nSex: M\nChestPainType: ATA\nRestingBP: 110\nCholesterol: 229\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 168\nExerciseAngina: N\nOldpeak: 1\nST Slope: Down\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 52\nSex: M\nChestPainType: NAP\nRestingBP: 172\nCholesterol: 199\nFastingBS: 1\nRestingECG: Normal\nMaxHR: 162\nExerciseAngina: N\nOldpeak: 0.5\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 44\nSex: M\nChestPainType: ATA\nRestingBP: 120\nCholesterol: 263\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 173\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 56\nSex: F\nChestPainType: ATA\nRestingBP: 140\nCholesterol: 294\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 153\nExerciseAngina: N\nOldpeak: 1.3\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 57\nSex: M\nChestPainType: ASY\nRestingBP: 140\nCholesterol: 192\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 148\nExerciseAngina: N\nOldpeak: 0.4\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 67\nSex: M\nChestPainType: ASY\nRestingBP: 160\nCholesterol: 286\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 108\nExerciseAngina: Y\nOldpeak: 1.5\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 53\nSex: F\nChestPainType: NAP\nRestingBP: 128\nCholesterol: 216\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 115\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 52\nSex: M\nChestPainType: NAP\nRestingBP: 138\nCholesterol: 223\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 169\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 43\nSex: M\nChestPainType: ASY\nRestingBP: 132\nCholesterol: 247\nFastingBS: 1\nRestingECG: LVH\nMaxHR: 143\nExerciseAngina: Y\nOldpeak: 0.1\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 52\nSex: M\nChestPainType: ASY\nRestingBP: 128\nCholesterol: 204\nFastingBS: 1\nRestingECG: Normal\nMaxHR: 156\nExerciseAngina: Y\nOldpeak: 1\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 59\nSex: M\nChestPainType: TA\nRestingBP: 134\nCholesterol: 204\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 162\nExerciseAngina: N\nOldpeak: 0.8\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 64\nSex: M\nChestPainType: TA\nRestingBP: 170\nCholesterol: 227\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 155\nExerciseAngina: N\nOldpeak: 0.6\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 66\nSex: F\nChestPainType: NAP\nRestingBP: 146\nCholesterol: 278\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 152\nExerciseAngina: N\nOldpeak: 0\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 39\nSex: F\nChestPainType: NAP\nRestingBP: 138\nCholesterol: 220\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 152\nExerciseAngina: N\nOldpeak: 0\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 57\nSex: M\nChestPainType: ATA\nRestingBP: 154\nCholesterol: 232\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 164\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 58\nSex: F\nChestPainType: ASY\nRestingBP: 130\nCholesterol: 197\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 131\nExerciseAngina: N\nOldpeak: 0.6\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 57\nSex: M\nChestPainType: ASY\nRestingBP: 110\nCholesterol: 335\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 143\nExerciseAngina: Y\nOldpeak: 3\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 47\nSex: M\nChestPainType: NAP\nRestingBP: 130\nCholesterol: 253\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 179\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 55\nSex: F\nChestPainType: ASY\nRestingBP: 128\nCholesterol: 205\nFastingBS: 0\nRestingECG: ST\nMaxHR: 130\nExerciseAngina: Y\nOldpeak: 2\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 35\nSex: M\nChestPainType: ATA\nRestingBP: 122\nCholesterol: 192\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 174\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 61\nSex: M\nChestPainType: ASY\nRestingBP: 148\nCholesterol: 203\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 161\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 58\nSex: M\nChestPainType: ASY\nRestingBP: 114\nCholesterol: 318\nFastingBS: 0\nRestingECG: ST\nMaxHR: 140\nExerciseAngina: N\nOldpeak: 4.4\nST Slope: Down\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 58\nSex: F\nChestPainType: ASY\nRestingBP: 170\nCholesterol: 225\nFastingBS: 1\nRestingECG: LVH\nMaxHR: 146\nExerciseAngina: Y\nOldpeak: 2.8\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 58\nSex: M\nChestPainType: ATA\nRestingBP: 125\nCholesterol: 220\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 144\nExerciseAngina: N\nOldpeak: 0.4\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 56\nSex: M\nChestPainType: ATA\nRestingBP: 130\nCholesterol: 221\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 163\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 56\nSex: M\nChestPainType: ATA\nRestingBP: 120\nCholesterol: 240\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 169\nExerciseAngina: N\nOldpeak: 0\nST Slope: Down\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 67\nSex: M\nChestPainType: NAP\nRestingBP: 152\nCholesterol: 212\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 150\nExerciseAngina: N\nOldpeak: 0.8\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 55\nSex: F\nChestPainType: ATA\nRestingBP: 132\nCholesterol: 342\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 166\nExerciseAngina: N\nOldpeak: 1.2\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 44\nSex: M\nChestPainType: ASY\nRestingBP: 120\nCholesterol: 169\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 144\nExerciseAngina: Y\nOldpeak: 2.8\nST Slope: Down\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 63\nSex: M\nChestPainType: ASY\nRestingBP: 140\nCholesterol: 187\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 144\nExerciseAngina: Y\nOldpeak: 4\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 63\nSex: F\nChestPainType: ASY\nRestingBP: 124\nCholesterol: 197\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 136\nExerciseAngina: Y\nOldpeak: 0\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 41\nSex: M\nChestPainType: ATA\nRestingBP: 120\nCholesterol: 157\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 182\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 59\nSex: M\nChestPainType: ASY\nRestingBP: 164\nCholesterol: 176\nFastingBS: 1\nRestingECG: LVH\nMaxHR: 90\nExerciseAngina: N\nOldpeak: 1\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 57\nSex: F\nChestPainType: ASY\nRestingBP: 140\nCholesterol: 241\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 123\nExerciseAngina: Y\nOldpeak: 0.2\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 45\nSex: M\nChestPainType: TA\nRestingBP: 110\nCholesterol: 264\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 132\nExerciseAngina: N\nOldpeak: 1.2\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 68\nSex: M\nChestPainType: ASY\nRestingBP: 144\nCholesterol: 193\nFastingBS: 1\nRestingECG: Normal\nMaxHR: 141\nExerciseAngina: N\nOldpeak: 3.4\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 57\nSex: M\nChestPainType: ASY\nRestingBP: 130\nCholesterol: 131\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 115\nExerciseAngina: Y\nOldpeak: 1.2\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "yes",
+        "serialization": "Age: 57\nSex: F\nChestPainType: ATA\nRestingBP: 130\nCholesterol: 236\nFastingBS: 0\nRestingECG: LVH\nMaxHR: 174\nExerciseAngina: N\nOldpeak: 0\nST Slope: Flat\n"
+    },
+    {
+        "header": "Given the diagnostic information about a patient, you must predict if the patient has heart disease.",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: no | yes.",
+        "instructions": "",
+        "label": "no",
+        "serialization": "Age: 38\nSex: M\nChestPainType: NAP\nRestingBP: 138\nCholesterol: 175\nFastingBS: 0\nRestingECG: Normal\nMaxHR: 173\nExerciseAngina: N\nOldpeak: 0\nST Slope: Up\n"
+    }
+]

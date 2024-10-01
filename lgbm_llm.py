@@ -2,16 +2,19 @@ import os
 import numpy as np
 import pandas as pd
 # import zero
-from sklearn.metrics import f1_score, accuracy_score
+from sklearn.metrics import f1_score, accuracy_score, roc_auc_score
 import random
 from llm_boost_utils import load_tabular_data, predict_lgbm, \
-    softprob_obj_lgbm, detect_and_encode_categorical
+    softprob_obj_lgbm, detect_and_encode_categorical, append_line_to_csv
 import optuna
 import argparse
 import lightgbm as lgb
-from LGBMscale.utils import scale_update, scale_train
-lgb.basic.Booster.update = scale_update
-lgb.train = scale_train
+# from LGBMscale.utils import scale_update, scale_train
+# lgb.basic.Booster.update = scale_update
+# lgb.train = scale_train
+import scipy.special
+import re
+regex = re.compile(r"\[|\]|<", re.IGNORECASE)
 
 import logging
 
@@ -43,13 +46,24 @@ parser.add_argument("--train_size", default="-1", type=int, help="train_size")
 parser.add_argument("--test_size", default="-1", type=int, help="test_size")
 parser.add_argument("--val_size", default="0.5", type=float, help="val_size")
 parser.add_argument("--cv_folds", default="1", type=int, help="number of cv_folds")
-parser.add_argument("--stratified", default="0", type=bool, help="stratify dataset")
+parser.add_argument("--stratified", action='store_true')
 parser.add_argument('--stack', action='store_true')
+parser.add_argument("--seed", default="0", type=int, help="seed")
 args = parser.parse_args()
 
 data = load_tabular_data(data_paths=[args.data_path], train_size=args.train_size,
                          test_size=args.test_size, num_exp=1, cv_folds=args.cv_folds,
-                         stratified=False, val_size=args.val_size, stack=args.stack)
+                         stratified=args.stratified, val_size=args.val_size, stack=args.stack,
+                         seed=args.seed)
+
+data2 = load_tabular_data(data_paths=[args.data_path], train_size=args.train_size,
+                         test_size=args.test_size, num_exp=1, cv_folds=args.cv_folds,
+                         stratified=args.stratified, val_size=args.val_size, stack=True,
+                         seed=args.seed)
+
+seed = args.seed
+random.seed(seed)
+np.random.seed(seed)
 from llm_boost_utils import N_CLASSES
 
 def train(data, params):
@@ -86,13 +100,13 @@ def train(data, params):
                             scores=scores_test,
                             scale=scale,
                             )
-            acc.append(accuracy_score(test_y, y_pred))
+            acc.append(roc_auc_score(test_y, y_pred, multi_class='ovr'))
             y_pred_val = predict_lgbm(model, 
                             val_x,
                             scores=scores_val,
                             scale=scale,
                             )
-            val_acc.append(accuracy_score(val_y, y_pred_val))
+            val_acc.append(roc_auc_score(val_y, y_pred_val, multi_class='ovr'))
             
         except:
             pass
@@ -100,7 +114,7 @@ def train(data, params):
     return np.mean(acc), np.mean(val_acc)
 
 
-def objective(trial, test_scores):
+def objective(trial, test_scores, data):
     params = {
         'lambda_l1': trial.suggest_float('lambda_l1', 1e-8, 10.0, log=True),
         'lambda_l2': trial.suggest_float('lambda_l2', 1e-8, 10.0, log=True),
@@ -136,42 +150,72 @@ def objective2(trial, test_scores, params):
 
 if __name__ == "__main__":
     test_scores = []
-    func = lambda trial: objective(trial, test_scores)
+    func = lambda trial: objective(trial, test_scores, data)
     study = optuna.create_study(direction='maximize')
-    study.optimize(func, n_trials=100)
+    study.optimize(func, n_trials=130)
     best_trial = study.best_trial
     best_test = test_scores[best_trial.number]
     
-    test_scores2 = []
-    func2 = lambda trial: objective2(trial, test_scores2, study.best_params)
-    study2 = optuna.create_study(direction='maximize')
-    study2.enqueue_trial(
-        {
-            "scale": float(1e-6),
-        }
-    )
-    study2.enqueue_trial(
-        {
-            "scale": float(1e6),
-        }
-    )
-    study2.optimize(func2, n_trials=30)
-    best_trial2 = study2.best_trial
-    best_test2 = test_scores2[best_trial2.number]
+    if not args.stack:
+        test_scores2 = []
+        func2 = lambda trial: objective2(trial, test_scores2, study.best_params)
+        study2 = optuna.create_study(direction='maximize')
+        study2.enqueue_trial(
+            {
+                "scale": float(1e-6),
+            }
+        )
+        study2.enqueue_trial(
+            {
+                "scale": float(1e6),
+            }
+        )
+        study2.optimize(func2, n_trials=30)
+        best_trial2 = study2.best_trial
+        best_test2 = test_scores2[best_trial2.number]
+    
+    test_scores3 = []
+    func3 = lambda trial: objective(trial, test_scores3, data2)
+    study3 = optuna.create_study(direction='maximize')
+    study3.optimize(func3, n_trials=130)
+    best_trial3 = study3.best_trial
+    best_test3 = test_scores3[best_trial3.number]
     
     print(' '.join(f'{k}={v}' for k, v in vars(args).items()))
     print('Best hyperparameters:', study.best_params)
     print('Best Standard Val Acc:', study.best_value)
     print('Best Standard Test Acc:', best_test)
     
-    print('Best Scaling Value:', study2.best_params)
-    print('Best Fusion Val Acc:', study2.best_value)
-    print('Best Fusion Test Acc:', best_test2)
+    if not args.stack:
+        print('Best Scaling Value:', study2.best_params)
+        print('Best Fusion Val Acc:', study2.best_value)
+        print('Best Fusion Test Acc:', best_test2)
+    
+    print('Best Scaling Value:', study3.best_params)
+    print('Best Fusion Val Acc:', study3.best_value)
+    print('Best Fusion Test Acc:', best_test3)
     
     llm_acc = []
     for i in range(len(data[0])):
         train_x, test_x, val_x, train_y, test_y, val_y, scores_train, scores_test, scores_val = data[0][i]
-        llm_acc.append(accuracy_score(np.argmax(test_y, axis=1), np.argmax(scores_test, axis=1)))
+        scores_test = scipy.special.softmax(scores_test, axis=1)
+        if N_CLASSES <= 2:
+            scores_test = scores_test[:,1]
+        llm_acc.append(roc_auc_score(np.argmax(test_y, axis=1), scores_test, multi_class='ovr'))
     
     print('LLM Acc:', np.mean(llm_acc))
+    llm_acc = np.mean(llm_acc)
+    
+    print(study2.trials[0].value)
+    print(study2.trials[1].value)
+    if study2.trials[0].value >= study2.trials[1].value:
+        best = best_test
+    else:
+        best = llm_acc
+    
+    file_path = 'final_lgbm_select.csv'
+    data_to_append = [args.data_path.split("/")[-1], args.train_size, args.seed, best_test, llm_acc, best, best_test3, best_test2]
+    # data_to_append = [args.data_path.split("/")[-1], args.train_size, args.seed, best]
+
+    append_line_to_csv(file_path, data_to_append)
     

@@ -1,10 +1,13 @@
 """Evaluate models."""
 import logging
 import os
+# import json
 from functools import partial
 from typing import Any
+# from sklearn.model_selection import train_test_split
 
 import datasets
+# from datasets import load_from_disk
 import numpy as np
 import pandas as pd
 from sklearn.feature_selection import SelectFromModel
@@ -404,6 +407,7 @@ class Evaluator:
             return
         device = "cuda" if torch.cuda.is_available() else "cpu"
         self.device = torch.device(device)
+        cache_dir = "/cmlscratch/mayukaj/hf"
         if self.model is None:
             self.tokenizer = None
             self.model_obj = None
@@ -419,7 +423,7 @@ class Evaluator:
             # )
             self.tokenizer = transformers.AutoTokenizer.from_pretrained(
                 self.model, 
-                # cache_dir=path
+                cache_dir=cache_dir
                 )
             if self.tokenizer.pad_token is None:
                 self.tokenizer.pad_token = self.tokenizer.eos_token
@@ -429,12 +433,12 @@ class Evaluator:
                 load_in_8bit=True,
                 torch_dtype=torch.bfloat16,
                 device_map="auto",
-                # cache_dir=path
+                cache_dir=cache_dir
             )
         else:
             self.tokenizer = transformers.AutoTokenizer.from_pretrained(
                 self.model, 
-                # cache_dir=path
+                cache_dir=cache_dir
                 )
             # if "ul2" in self.model:
             self.model_obj = transformers.T5ForConditionalGeneration.from_pretrained(
@@ -442,11 +446,11 @@ class Evaluator:
                 load_in_8bit=True,
                 torch_dtype=torch.bfloat16,
                 device_map="auto",
-                # cache_dir=path
+                cache_dir=cache_dir
             )
             # else:
             #     self.model_obj = transformers.AutoModelForSeq2SeqLM.from_pretrained(
-            #         self.model, cache_dir=path
+            #         self.model, cache_dir=cache_dir
             #     ).to(self.device)
 
     def get_test_hf_datasets(self):
@@ -541,6 +545,12 @@ class Evaluator:
                                                              k_shot_encoding_f=flan_few_shot_encoder,
                                                              return_datasets=return_datasets,
                                                              save_dir = self.save_paths[i])
+                        # elif self.encoding_format == "tabllm":
+                        #     results = self.evaluate_task_tabllm(os.path.join(task_path, "data"),
+                        #                                      os.path.join(task_path, "train.csv"),
+                        #                                      os.path.join(task_path, "test.csv"),
+                        #                                      os.path.join(task_path, "note.json"),
+                        #                                      save_dir = self.save_paths[i])
                         else:
                             raise ValueError(f"Bad encoding type {self.encoding_format}.")
                         if return_datasets:
@@ -669,6 +679,61 @@ class Evaluator:
             "accuracy": accuracy
         }
         return eval_results
+    
+    # def evaluate_task_tabllm(self,
+    #                       data_path: str,
+    #                       train_path: str,
+    #                       test_path: str,
+    #                       note_path: str,
+    #                       save_dir = "test_dataset"):
+        
+    #     train_x = pd.read_csv(train_path, index_col=0)
+    #     test_x = pd.read_csv(test_path, index_col=0)
+    #     df = pd.concat([train_x, test_x], ignore_index=True)
+    #     references = df[self.temp_y_column].to_list()
+    #     y = df[self.temp_y_column].to_numpy()
+    #     df = df.drop([self.temp_y_column], axis=1)
+        
+    #     labels = np.unique(references)
+    #     with open(note_path, 'r') as file:
+    #         data = json.load(file)
+    #     extra_note = data["extra_note"]
+        
+    #     dataset = load_from_disk(data_path)
+    #     predictions, scores = self.get_predictions(dataset, labels, data_label="note", extra_note=extra_note) 
+        
+    #     f1 = f1_score(references,
+    #                   predictions,
+    #                   average="macro",
+    #                   labels=labels)
+    #     accuracy = accuracy_score(references, predictions)
+        
+        
+    #     scores = np.transpose(np.array(scores))
+        
+    #     for i in range(scores.shape[0]):
+    #         df["scores_%d"%i] = scores[i]
+        
+    #     # test_x[self.temp_y_column] = test_y
+    #     # train_x[self.temp_y_column] = train_y
+    #     for i in range(len(labels)):
+    #         df["labels_%d"%i] = np.where(y.astype(str) == labels[i], 1, 0)
+        
+    #     train_x, test_x, = train_test_split(df, test_size=0.20, shuffle=False)
+          
+    #     dataset_dir = os.path.join(self.benchmark_path, save_dir)
+    #     os.makedirs(dataset_dir, exist_ok=True)
+        
+    #     test_x.to_csv(os.path.join(dataset_dir, "test.csv"))
+    #     train_x.to_csv(os.path.join(dataset_dir, "train.csv"))
+        
+    #     eval_results = {
+    #         "predictions": predictions,
+    #         "references": references,
+    #         "f1": f1,
+    #         "accuracy": accuracy
+    #     }
+    #     return eval_results
 
     def get_test_dataset(self,
                          encoding_f: callable,
@@ -734,7 +799,7 @@ class Evaluator:
         return predictions
 
     def get_predictions(self,
-                        test_data, labels):
+                        test_data, labels, data_label="text", extra_note=None):
         """Computes predictions on data."""
         all_texts = []
         scores = []
@@ -745,9 +810,11 @@ class Evaluator:
                 encoded_labels.append(self.tokenizer(label, 
                                                     return_tensors="pt").input_ids.to(self.device))
         
-        for i in tqdm(range(len(test_data["text"]))):
-            cur_text = test_data["text"][i]
-            #print(cur_text)
+        for i in tqdm(range(len(test_data[data_label]))):
+            if extra_note is not None:
+                cur_text = test_data[data_label][i]+" "+extra_note
+            else:
+                cur_text = test_data[data_label][i]
             
             if "llama" in self.model:
                 encoded_cur_labels = []
@@ -775,15 +842,15 @@ class Evaluator:
                 message = "Model is set to none... can't get predictions, terminating."
                 raise ValueError(message)
             # Get generation
-            outputs = self.model_obj.generate(
-                encoded_cur_text,
-                do_sample=False,
-                max_length=ml,
-                return_dict_in_generate=True,
-                output_scores=True,
-                repetition_penalty=1.1 if "llama" in self.model else 1.0,
-                pad_token_id=self.tokenizer.pad_token_id if "llama" in self.model else None,
-            )
+            # outputs = self.model_obj.generate(
+            #     encoded_cur_text,
+            #     do_sample=False,
+            #     max_length=ml,
+            #     return_dict_in_generate=True,
+            #     output_scores=True,
+            #     repetition_penalty=1.1 if "llama" in self.model else 1.0,
+            #     pad_token_id=self.tokenizer.pad_token_id if "llama" in self.model else None,
+            # )
             
             logits = []
             
@@ -811,25 +878,26 @@ class Evaluator:
             # )
             # final_score = np.exp(np.sum(transition_scores[0].cpu().numpy()))
             
-            generation = outputs.sequences
-            # Push generation back locally
-            generation = generation.cpu().numpy().tolist()
+            # generation = outputs.sequences
+            # # Push generation back locally
+            # generation = generation.cpu().numpy().tolist()
 
             # Decode
-            if "EleutherAI" in self.model or "llama" in self.model:
-                text_generation = self.tokenizer.decode(
-                    generation[0][start_index:],
-                    #generation[0][len(encoded_cur_text[0]):],
-                    skip_special_tokens=True
-                )
-                text_generation = text_generation.split(".")[0]
-            else:
-                text_generation = self.tokenizer.decode(
-                    generation[0],
-                    skip_special_tokens=True
-                )
-                text_generation = text_generation.rstrip(".")
-            all_texts.append(text_generation)
+            # if "EleutherAI" in self.model or "llama" in self.model:
+            #     text_generation = self.tokenizer.decode(
+            #         generation[0][start_index:],
+            #         #generation[0][len(encoded_cur_text[0]):],
+            #         skip_special_tokens=True
+            #     )
+            #     text_generation = text_generation.split(".")[0]
+            # else:
+            #     text_generation = self.tokenizer.decode(
+            #         generation[0],
+            #         skip_special_tokens=True
+            #     )
+            #     text_generation = text_generation.rstrip(".")
+            # all_texts.append(text_generation)
+            all_texts.append("None")
             scores.append(logits)
         return all_texts, scores
 

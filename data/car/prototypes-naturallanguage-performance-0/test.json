@@ -1,0 +1,2770 @@
+[
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: vhigh\ndoors: 5more\npersons: 2\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: vhigh\ndoors: 5more\npersons: 2\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: vhigh\ndoors: 5more\npersons: 2\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: vhigh\ndoors: 5more\npersons: 2\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: vhigh\ndoors: 5more\npersons: 4\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: vhigh\ndoors: 5more\npersons: 4\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: vhigh\ndoors: 5more\npersons: 4\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: vhigh\ndoors: 5more\npersons: 4\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: vhigh\ndoors: 5more\npersons: 4\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: vhigh\ndoors: 5more\npersons: 4\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: vhigh\ndoors: 5more\npersons: 4\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: vhigh\ndoors: 5more\npersons: 4\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: vhigh\ndoors: 5more\npersons: 4\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: vhigh\ndoors: 5more\npersons: more\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: vhigh\ndoors: 5more\npersons: more\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: vhigh\ndoors: 5more\npersons: more\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: vhigh\ndoors: 5more\npersons: more\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: vhigh\ndoors: 5more\npersons: more\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: vhigh\ndoors: 5more\npersons: more\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: vhigh\ndoors: 5more\npersons: more\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: vhigh\ndoors: 5more\npersons: more\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: vhigh\ndoors: 5more\npersons: more\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: 2\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: 2\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: 2\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: 2\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: 2\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: 2\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: 2\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: 2\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: 2\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: 4\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: 4\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: 4\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: 4\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: 4\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: 4\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: 4\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: 4\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: 4\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: more\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: more\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: more\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: more\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: more\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: more\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: more\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: more\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: high\ndoors: 2\npersons: more\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: 2\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: 2\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: 2\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: 2\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: 2\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: 2\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: 2\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: 2\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: 2\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: 4\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: 4\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: 4\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: 4\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: 4\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: 4\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: 4\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: 4\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: 4\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: more\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: more\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: more\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: more\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: more\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: more\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: more\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: more\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: high\ndoors: 3\npersons: more\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: 2\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: 2\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: 2\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: 2\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: 2\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: 2\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: 2\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: 2\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: 2\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: 4\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: 4\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: 4\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: 4\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: 4\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: 4\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: 4\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: 4\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: 4\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: more\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: more\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: more\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: more\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: more\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: more\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: more\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: more\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: high\ndoors: 4\npersons: more\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: 2\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: 2\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: 2\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: 2\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: 2\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: 2\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: 2\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: 2\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: 2\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: 4\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: 4\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: 4\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: 4\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: 4\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: 4\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: 4\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: 4\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: 4\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: more\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: more\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: more\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: more\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: more\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: more\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: more\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: more\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: high\ndoors: 5more\npersons: more\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: 2\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: 2\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: 2\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: 2\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: 2\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: 2\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: 2\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: 2\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: 2\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: 4\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: 4\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: 4\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: 4\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: 4\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: 4\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: 4\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: 4\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: 4\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: more\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: more\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: more\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: more\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: more\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: more\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: more\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: more\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: med\ndoors: 2\npersons: more\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: 2\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: 2\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: 2\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: 2\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: 2\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: 2\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: 2\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: 2\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: 2\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: 4\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: 4\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: 4\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: 4\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: 4\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: 4\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: 4\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: 4\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: 4\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: more\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: more\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: more\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: more\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: more\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: more\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: more\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: more\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: med\ndoors: 3\npersons: more\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: 2\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: 2\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: 2\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: 2\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: 2\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: 2\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: 2\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: 2\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: 2\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: 4\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: 4\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: 4\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: 4\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: 4\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: 4\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: 4\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: 4\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: 4\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: more\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: more\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: more\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: more\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: more\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: more\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: more\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: more\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: med\ndoors: 4\npersons: more\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: 2\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: 2\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: 2\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: 2\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: 2\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: 2\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: 2\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: 2\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: 2\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: 4\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: 4\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: 4\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: 4\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: 4\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: 4\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: 4\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: 4\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: 4\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: more\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: more\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: more\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: more\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: more\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: more\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: more\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: more\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: med\ndoors: 5more\npersons: more\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: 2\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: 2\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: 2\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: 2\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: 2\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: 2\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: 2\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: 2\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: 2\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: 4\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: 4\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: 4\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: 4\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: 4\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: 4\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: 4\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: 4\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: 4\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: more\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: more\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: more\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: more\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: more\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: more\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: more\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: more\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: low\ndoors: 2\npersons: more\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: 2\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: 2\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: 2\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: 2\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: 2\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: 2\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: 2\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: 2\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: 2\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: 4\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: 4\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: 4\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: 4\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: 4\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: 4\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: 4\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: 4\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: 4\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: more\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: more\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: more\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: more\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: more\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: more\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: more\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: more\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: low\ndoors: 3\npersons: more\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: 2\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: 2\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: 2\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: 2\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: 2\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: 2\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: 2\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: 2\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: 2\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: 4\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: 4\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: 4\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: 4\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: 4\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: 4\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: 4\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: 4\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: 4\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: more\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: more\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: more\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: more\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: more\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: more\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: more\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: more\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: low\ndoors: 4\npersons: more\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: 2\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: 2\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: 2\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: 2\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: 2\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: 2\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: 2\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: 2\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: 2\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: 4\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: 4\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: 4\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: 4\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: 4\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: 4\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: 4\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: 4\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: 4\nlug boot: big\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: more\nlug boot: small\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Acceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: more\nlug boot: small\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: more\nlug boot: small\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: more\nlug boot: med\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: more\nlug boot: med\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: more\nlug boot: med\nsafety dict: high\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Unacceptable",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: more\nlug boot: big\nsafety dict: low\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Good",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: more\nlug boot: big\nsafety dict: med\n"
+    },
+    {
+        "header": "Given the following data, you must rate the customers decision to buy this car",
+        "lift_header": "",
+        "class_text": "Answer with one of the following: Acceptable | Good | Unacceptable | Very good.",
+        "instructions": "",
+        "label": "Very good",
+        "serialization": "buying: low\nmaint: low\ndoors: 5more\npersons: more\nlug boot: big\nsafety dict: high\n"
+    }
+]
