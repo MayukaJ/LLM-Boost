@@ -407,7 +407,7 @@ class Evaluator:
             return
         device = "cuda" if torch.cuda.is_available() else "cpu"
         self.device = torch.device(device)
-        cache_dir = "/cmlscratch/mayukaj/hf"
+        cache_dir = "/cmlscratch/user/hf"
         if self.model is None:
             self.tokenizer = None
             self.model_obj = None

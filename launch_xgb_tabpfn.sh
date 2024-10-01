@@ -133,30 +133,6 @@ python xgb_tabpfn.py --seed 0 --data_path ./data/SoybeanLarge/prototypes-natural
 python xgb_tabpfn.py --seed 0 --data_path ./data/SoybeanLarge/prototypes-naturallanguage-performance-0 --train_size 200 --cv_folds 40 
 python xgb_tabpfn.py --seed 0 --data_path ./data/SoybeanLarge/prototypes-naturallanguage-performance-0 --cv_folds 40 --val_size 0.2
 
-# python xgb_tabpfn.py --seed 0 --data_path /cmlscratch/mayukaj/data/airlines/prototypes-naturallanguage-performance-0 --train_size 20 --cv_folds 40
-# python xgb_tabpfn.py --seed 0 --data_path /cmlscratch/mayukaj/data/airlines/prototypes-naturallanguage-performance-0 --train_size 50 --cv_folds 40
-# python xgb_tabpfn.py --seed 0 --data_path /cmlscratch/mayukaj/data/airlines/prototypes-naturallanguage-performance-0 --train_size 100 --cv_folds 40
-# python xgb_tabpfn.py --seed 0 --data_path /cmlscratch/mayukaj/data/airlines/prototypes-naturallanguage-performance-0 --train_size 200 --cv_folds 40
-# python xgb_tabpfn.py --seed 0 --data_path /cmlscratch/mayukaj/data/airlines/prototypes-naturallanguage-performance-0 --train_size 500 --cv_folds 40
-# python xgb_tabpfn.py --seed 0 --data_path /cmlscratch/mayukaj/data/airlines/prototypes-naturallanguage-performance-0 --train_size 1000 --cv_folds 20
-# python xgb_tabpfn.py --seed 0 --data_path /cmlscratch/mayukaj/data/airlines/prototypes-naturallanguage-performance-0 --cv_folds 5 --val_size 0.2
-
-# python xgb_tabpfn.py --seed 0 --data_path /cmlscratch/mayukaj/data/jungle_chess_2pcs_raw_endgame_complete/prototypes-naturallanguage-performance-0 --train_size 20 --cv_folds 40
-# python xgb_tabpfn.py --seed 0 --data_path /cmlscratch/mayukaj/data/jungle_chess_2pcs_raw_endgame_complete/prototypes-naturallanguage-performance-0 --train_size 50 --cv_folds 40
-# python xgb_tabpfn.py --seed 0 --data_path /cmlscratch/mayukaj/data/jungle_chess_2pcs_raw_endgame_complete/prototypes-naturallanguage-performance-0 --train_size 100 --cv_folds 40
-# python xgb_tabpfn.py --seed 0 --data_path /cmlscratch/mayukaj/data/jungle_chess_2pcs_raw_endgame_complete/prototypes-naturallanguage-performance-0 --train_size 200 --cv_folds 40
-# python xgb_tabpfn.py --seed 0 --data_path /cmlscratch/mayukaj/data/jungle_chess_2pcs_raw_endgame_complete/prototypes-naturallanguage-performance-0 --train_size 500 --cv_folds 40
-# python xgb_tabpfn.py --seed 0 --data_path /cmlscratch/mayukaj/data/jungle_chess_2pcs_raw_endgame_complete/prototypes-naturallanguage-performance-0 --train_size 1000 --cv_folds 20
-# python xgb_tabpfn.py --seed 0 --data_path /cmlscratch/mayukaj/data/jungle_chess_2pcs_raw_endgame_complete/prototypes-naturallanguage-performance-0 --cv_folds 5 --val_size 0.2
-
-# python xgb_tabpfn.py --seed 0 --data_path /cmlscratch/mayukaj/data/bank-marketing/prototypes-naturallanguage-performance-0 --train_size 20 --cv_folds 40
-# python xgb_tabpfn.py --seed 0 --data_path /cmlscratch/mayukaj/data/bank-marketing/prototypes-naturallanguage-performance-0 --train_size 50 --cv_folds 40
-# python xgb_tabpfn.py --seed 0 --data_path /cmlscratch/mayukaj/data/bank-marketing/prototypes-naturallanguage-performance-0 --train_size 100 --cv_folds 40
-# python xgb_tabpfn.py --seed 0 --data_path /cmlscratch/mayukaj/data/bank-marketing/prototypes-naturallanguage-performance-0 --train_size 200 --cv_folds 40
-# python xgb_tabpfn.py --seed 0 --data_path /cmlscratch/mayukaj/data/bank-marketing/prototypes-naturallanguage-performance-0 --train_size 500 --cv_folds 40
-# python xgb_tabpfn.py --seed 0 --data_path /cmlscratch/mayukaj/data/bank-marketing/prototypes-naturallanguage-performance-0 --train_size 1000 --cv_folds 20
-# python xgb_tabpfn.py --seed 0 --data_path /cmlscratch/mayukaj/data/bank-marketing/prototypes-naturallanguage-performance-0 --cv_folds 5 --val_size 0.2
-
 # python xgb_tabpfn.py --seed 0 --data_path ./data/bank/prototypes-naturallanguage-performance-0 --train_size 8 --cv_folds 40
 # python xgb_tabpfn.py --seed 0 --data_path ./data/bank/prototypes-naturallanguage-performance-0 --train_size 16 --cv_folds 40
 python xgb_tabpfn.py --seed 0 --data_path ./data/bank/prototypes-naturallanguage-performance-0 --train_size 20 --cv_folds 40

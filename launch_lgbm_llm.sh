@@ -81,30 +81,6 @@ python lgbm_llm.py --seed 0 --data_path ./data/SoybeanLarge_flan-t5-xxl_3-shot_0
 python lgbm_llm.py --seed 0 --data_path ./data/SoybeanLarge_flan-t5-xxl_3-shot_0_nl --train_size 200 --cv_folds 40 
 python lgbm_llm.py --seed 0 --data_path ./data/SoybeanLarge_flan-t5-xxl_3-shot_0_nl --cv_folds 40 --val_size 0.2
 
-# python lgbm_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/airlines_flan-t5-xxl_3-shot_0_nl --train_size 20 --cv_folds 40
-# python lgbm_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/airlines_flan-t5-xxl_3-shot_0_nl --train_size 50 --cv_folds 40
-# python lgbm_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/airlines_flan-t5-xxl_3-shot_0_nl --train_size 100 --cv_folds 40
-# python lgbm_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/airlines_flan-t5-xxl_3-shot_0_nl --train_size 200 --cv_folds 40
-# python lgbm_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/airlines_flan-t5-xxl_3-shot_0_nl --train_size 500 --cv_folds 40
-# python lgbm_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/airlines_flan-t5-xxl_3-shot_0_nl --train_size 1000 --cv_folds 20
-# python lgbm_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/airlines_flan-t5-xxl_3-shot_0_nl --cv_folds 5 --val_size 0.2
-
-# python lgbm_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/jungle_chess_2pcs_raw_endgame_complete_flan-t5-xxl_3-shot_0_nl --train_size 20 --cv_folds 40
-# python lgbm_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/jungle_chess_2pcs_raw_endgame_complete_flan-t5-xxl_3-shot_0_nl --train_size 50 --cv_folds 40
-# python lgbm_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/jungle_chess_2pcs_raw_endgame_complete_flan-t5-xxl_3-shot_0_nl --train_size 100 --cv_folds 40
-# python lgbm_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/jungle_chess_2pcs_raw_endgame_complete_flan-t5-xxl_3-shot_0_nl --train_size 200 --cv_folds 40
-# python lgbm_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/jungle_chess_2pcs_raw_endgame_complete_flan-t5-xxl_3-shot_0_nl --train_size 500 --cv_folds 40
-# python lgbm_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/jungle_chess_2pcs_raw_endgame_complete_flan-t5-xxl_3-shot_0_nl --train_size 1000 --cv_folds 20
-# python lgbm_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/jungle_chess_2pcs_raw_endgame_complete_flan-t5-xxl_3-shot_0_nl --cv_folds 5 --val_size 0.2
-
-# python lgbm_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/bank-marketing_flan-t5-xxl_3-shot_0_nl --train_size 20 --cv_folds 40
-# python lgbm_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/bank-marketing_flan-t5-xxl_3-shot_0_nl --train_size 50 --cv_folds 40
-# python lgbm_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/bank-marketing_flan-t5-xxl_3-shot_0_nl --train_size 100 --cv_folds 40
-# python lgbm_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/bank-marketing_flan-t5-xxl_3-shot_0_nl --train_size 200 --cv_folds 40
-# python lgbm_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/bank-marketing_flan-t5-xxl_3-shot_0_nl --train_size 500 --cv_folds 40
-# python lgbm_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/bank-marketing_flan-t5-xxl_3-shot_0_nl --train_size 1000 --cv_folds 20
-# python lgbm_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/bank-marketing_flan-t5-xxl_3-shot_0_nl --cv_folds 5 --val_size 0.2
-
 # python lgbm_llm.py --seed 0 --data_path ./data/bank_flan-t5-xxl_3-shot_0_nl --train_size 8 --cv_folds 40
 # python lgbm_llm.py --seed 0 --data_path ./data/bank_flan-t5-xxl_3-shot_0_nl --train_size 16 --cv_folds 40
 python lgbm_llm.py --seed 0 --data_path ./data/bank_flan-t5-xxl_3-shot_0_nl --train_size 20 --cv_folds 40

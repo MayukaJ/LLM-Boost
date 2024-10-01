@@ -81,30 +81,6 @@ python xgb_llm.py --seed 0 --data_path ./data/SoybeanLarge_Meta-Llama-3-8B-Instr
 python xgb_llm.py --seed 0 --data_path ./data/SoybeanLarge_Meta-Llama-3-8B-Instruct_3-shot_0_nl --train_size 200 --cv_folds 40 
 python xgb_llm.py --seed 0 --data_path ./data/SoybeanLarge_Meta-Llama-3-8B-Instruct_3-shot_0_nl --cv_folds 40 --val_size 0.2
 
-# python xgb_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/airlines_Meta-Llama-3-8B-Instruct_3-shot_0_nl --train_size 20 --cv_folds 40
-# python xgb_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/airlines_Meta-Llama-3-8B-Instruct_3-shot_0_nl --train_size 50 --cv_folds 40
-# python xgb_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/airlines_Meta-Llama-3-8B-Instruct_3-shot_0_nl --train_size 100 --cv_folds 40
-# python xgb_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/airlines_Meta-Llama-3-8B-Instruct_3-shot_0_nl --train_size 200 --cv_folds 40
-# python xgb_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/airlines_Meta-Llama-3-8B-Instruct_3-shot_0_nl --train_size 500 --cv_folds 40
-# python xgb_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/airlines_Meta-Llama-3-8B-Instruct_3-shot_0_nl --train_size 1000 --cv_folds 20
-# python xgb_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/airlines_Meta-Llama-3-8B-Instruct_3-shot_0_nl --cv_folds 5 --val_size 0.2
-
-# python xgb_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/jungle_chess_2pcs_raw_endgame_complete_Meta-Llama-3-8B-Instruct_3-shot_0_nl --train_size 20 --cv_folds 40
-# python xgb_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/jungle_chess_2pcs_raw_endgame_complete_Meta-Llama-3-8B-Instruct_3-shot_0_nl --train_size 50 --cv_folds 40
-# python xgb_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/jungle_chess_2pcs_raw_endgame_complete_Meta-Llama-3-8B-Instruct_3-shot_0_nl --train_size 100 --cv_folds 40
-# python xgb_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/jungle_chess_2pcs_raw_endgame_complete_Meta-Llama-3-8B-Instruct_3-shot_0_nl --train_size 200 --cv_folds 40
-# python xgb_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/jungle_chess_2pcs_raw_endgame_complete_Meta-Llama-3-8B-Instruct_3-shot_0_nl --train_size 500 --cv_folds 40
-# python xgb_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/jungle_chess_2pcs_raw_endgame_complete_Meta-Llama-3-8B-Instruct_3-shot_0_nl --train_size 1000 --cv_folds 20
-# python xgb_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/jungle_chess_2pcs_raw_endgame_complete_Meta-Llama-3-8B-Instruct_3-shot_0_nl --cv_folds 5 --val_size 0.2
-
-# python xgb_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/bank-marketing_Meta-Llama-3-8B-Instruct_3-shot_0_nl --train_size 20 --cv_folds 40
-# python xgb_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/bank-marketing_Meta-Llama-3-8B-Instruct_3-shot_0_nl --train_size 50 --cv_folds 40
-# python xgb_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/bank-marketing_Meta-Llama-3-8B-Instruct_3-shot_0_nl --train_size 100 --cv_folds 40
-# python xgb_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/bank-marketing_Meta-Llama-3-8B-Instruct_3-shot_0_nl --train_size 200 --cv_folds 40
-# python xgb_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/bank-marketing_Meta-Llama-3-8B-Instruct_3-shot_0_nl --train_size 500 --cv_folds 40
-# python xgb_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/bank-marketing_Meta-Llama-3-8B-Instruct_3-shot_0_nl --train_size 1000 --cv_folds 20
-# python xgb_llm.py --seed 0 --data_path /cmlscratch/mayukaj/data/bank-marketing_Meta-Llama-3-8B-Instruct_3-shot_0_nl --cv_folds 5 --val_size 0.2
-
 # python xgb_llm.py --seed 0 --data_path ./data/bank_Meta-Llama-3-8B-Instruct_3-shot_0_nl --train_size 8 --cv_folds 40
 # python xgb_llm.py --seed 0 --data_path ./data/bank_Meta-Llama-3-8B-Instruct_3-shot_0_nl --train_size 16 --cv_folds 40
 python xgb_llm.py --seed 0 --data_path ./data/bank_Meta-Llama-3-8B-Instruct_3-shot_0_nl --train_size 20 --cv_folds 40
