@@ -1,3 +1,7 @@
+<p align="center">
+<img src="./figures/cat_dog_class.png" alt="LLM-Boost" width="600"/>
+</p>
+
 # LLM Boost: LLMs Boost the Performance of Decision Trees on Tabular Data across Sample Sizes
 
 This repository is built on top of the Tablet code-base. The original README is appended and contains useful information for installation and LLM inference. 
@@ -11,39 +15,41 @@ pip install -r requirements.txt
 ```
 
 ## LLM Inference
-Use the following to infer and store LLM scores. 'flan' and 'llama' can be used as the model argument for Flan-T5 and LLama-3-8B-Instruct (requires Meta approval) respectively. 
+Use the following to infer and store LLM scores. See the data folder for the prepared datasets for language model inference. You can use the instructions in the original Tablet README to create new datasets in this format. 
 ```shell
-python llm_infer.py --name Adult --model flan --seed 0
+python llm_infer.py --seed 0 --k_shot 3 --name Adult --model google/flan-t5-base
 ```
-This code will save new train and test csv files with LLM scores for each row to ./data/DATASET_MODEL (In this case ./data/Adult_flan)
+This code will save new train and test csv files with LLM scores for each row to ./data/dataset_model_n-shot_seed (In this case ./data/Adult_flan-t5-base_3-shot_0)
 full list of dataset inference commands are given in launch_llm_infer.sh
 
-## LLM+XGB Experiments (MAIN)
-After Generating LLM Scores use the following to run our scaling experiments. This will run standard XGBoost (With Hyperparamater Tuning) and Additional LLMBoost Hyperparameter tuning. use the --stack argument for stacking experiments without LLMBoost.
+## LLM-Boost Experiments
+After Generating LLM Scores use the following to run our boosting experiments. This will run standard XGBoost (With Hyperparamater Tuning) and Additional LLM-Boost Hyperparameter tuning.
 ```shell
-python xgb_llm.py --data_path ./data/Adult_flan/ --train_size 20 --cv_folds 40 --seed 0
+python xgb_llm.py --seed 0 --data_path ./data/Adult_flan-t5-base_3-shot_0 --train_size 20 --cv_folds 40
 ```
-full list of dataset inference commands are given in launch_xgb_llm.sh
+A sample list of training commands for all datasets are given in launch_xgb_llm.sh
+
+## PFN-Boost Experiments
+For our PFN-Boost experiments use the following.
+```shell
+python xgb_tabpfn.py --seed 0 --data_path ./data/Adult/prototypes-naturallanguage-performance-0 --train_size 20 --cv_folds 40
+```
+A sample list of training commands for all datasets are given in launch_xgb_tabpfn.sh
 
 ## LLM+LGBM Experiments
 Simillar to the above if using the following,,
 ```shell
-python lgbm_llm.py --data_path ./data/Adult_flan/ --train_size 20 --cv_folds 40
+python lgbm_llm.py --seed 0 --data_path ./data/Adult_flan-t5-base_3-shot_0 --train_size 20 --cv_folds 40
 ```
-full list of dataset inference commands are given in launch_lgbm_llm.sh
+A sample list of training commands for all datasets are given in launch_lgbm_llm.sh
 
-## TabPFN+XGB Experiments
-For TabPFN experiments use the following. There is no need for LLM inference for these experiments. 1590 here is the OpenML ID for the adult dataset. Feel free to use any OpenML dataset.
-```shell
-python xgb_tabpfn.py --data_id 1590
-```
-full list of dataset inference commands are given in launch_xgb_tabpfn.sh
-\
-\
-\
-\
-\
-\
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
 # Original README:
 <p align="center">
 <img src="./site/assets/logo.png" alt="TABLET logo" width="600"/><img src="./site/assets/ucilogo.png" alt="UCI NLP Logo" width="150">

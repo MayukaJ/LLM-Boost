@@ -29,7 +29,7 @@ else:
 save_name = args.model.split('/')[-1]
     
 save_paths = [
-    args.name+'_{}_{}-shot_{}_nl'.format(save_name, args.k_shot, args.seed),
+    args.name+'_{}_{}-shot_{}'.format(save_name, args.k_shot, args.seed),
     ]
 evaluator = evaluate.Evaluator(benchmark_path=benchmark_path,
                                 tasks_to_run=tasks,
