@@ -30,6 +30,7 @@ parser.add_argument("--val_size", default="0.5", type=float, help="val_size")
 parser.add_argument("--cv_folds", default="5", type=int, help="number of cv_folds")
 parser.add_argument("--stratified", action='store_true')
 parser.add_argument("--use_standard", action="store_true", help="Use standard model")
+parser.add_argument("--use_caafe", action="store_true", help="Use CAAFE data")
 parser.add_argument("--data_id", default="31", type=int, help="data_id")
 parser.add_argument('--stack', action='store_true')
 parser.add_argument("--seed", default="0", type=int, help="seed")
@@ -39,12 +40,12 @@ args = parser.parse_args()
 data = load_tabpfn_data(data_paths=[args.data_path], train_size=args.train_size,
                          test_size=args.test_size, num_exp=1, 
                          cv_folds=args.cv_folds, stratified=args.stratified, val_size=args.val_size, use_oml=False, data_id=args.data_id,
-                         stack=args.stack, seed=args.seed)
+                         stack=args.stack, use_caafe=args.use_caafe, seed=args.seed)
 
 data2 = load_tabpfn_data(data_paths=[args.data_path], train_size=args.train_size,
                          test_size=args.test_size, num_exp=1, 
                          cv_folds=args.cv_folds, stratified=args.stratified, val_size=args.val_size, use_oml=False, data_id=args.data_id,
-                         stack=True, seed=args.seed)
+                         stack=True, use_caafe=args.use_caafe, seed=args.seed)
 
 seed = args.seed
 random.seed(seed)
@@ -224,9 +225,11 @@ if __name__ == "__main__":
     else:
         best = llm_acc
     
-    file_path = 'tabpfn_rerun.csv'
+    file_path = 'tabpfn_caafe.csv'
     
-    data_to_append = [args.data_path.split("/")[-2], args.train_size, args.seed, best_test4, llm_acc, best, best_test3, best_test2]
+    # data_to_append = [args.data_path.split("/")[-2], args.train_size, args.seed, best_test4, llm_acc, best, best_test3, best_test2]
+    data_to_append = [args.data_id, args.seed, best_test4, llm_acc, best, best_test3, best_test2]
+
     
     append_line_to_csv(file_path, data_to_append)
 

@@ -242,7 +242,7 @@ if __name__ == "__main__":
     else:
         best = llm_acc
     
-    file_path = 'final_llama_select.csv'
+    file_path = 'final_qwen.csv'
     data_to_append = [args.data_path.split("/")[-1], args.train_size, args.seed, best_test4, llm_acc, best, best_test3, best_test2]
 
     append_line_to_csv(file_path, data_to_append)

@@ -407,7 +407,7 @@ class Evaluator:
             return
         device = "cuda" if torch.cuda.is_available() else "cpu"
         self.device = torch.device(device)
-        cache_dir = "/cmlscratch/user/hf"
+        cache_dir = "~/.cache/huggingface"
         if self.model is None:
             self.tokenizer = None
             self.model_obj = None
@@ -432,6 +432,25 @@ class Evaluator:
                 self.model,
                 load_in_8bit=True,
                 torch_dtype=torch.bfloat16,
+                device_map="auto",
+                cache_dir=cache_dir
+            )
+        elif "Qwen" in self.model:
+            # self.tokenizer = transformers.LlamaTokenizer.from_pretrained(self.model)
+            # self.model_obj = transformers.LlamaForCausalLM.from_pretrained(
+            #     self.model, load_in_8bit=True, device_map='auto', torch_dtype=torch.float16
+            # )
+            self.tokenizer = transformers.AutoTokenizer.from_pretrained(
+                self.model, 
+                cache_dir=cache_dir
+                )
+            if self.tokenizer.pad_token is None:
+                self.tokenizer.pad_token = self.tokenizer.eos_token
+            # if "ul2" in self.model:
+            self.model_obj = transformers.AutoModelForCausalLM.from_pretrained(
+                self.model,
+                # load_in_8bit=True,
+                torch_dtype="auto",
                 device_map="auto",
                 cache_dir=cache_dir
             )
@@ -804,7 +823,7 @@ class Evaluator:
         all_texts = []
         scores = []
         
-        if "llama" not in self.model:
+        if "llama" not in self.model and "Qwen" not in self.model:
             encoded_labels = []
             for label in labels:
                 encoded_labels.append(self.tokenizer(label, 
@@ -816,12 +835,13 @@ class Evaluator:
             else:
                 cur_text = test_data[data_label][i]
             
-            if "llama" in self.model:
+            if "llama" in self.model or "Qwen" in self.model:
                 encoded_cur_labels = []
                 for label in labels:
                     encoded_cur_labels.append(self.tokenizer(cur_text+" "+label, 
                                                      return_tensors="pt").input_ids.to(self.device))
-            if "llama" in self.model:
+                    
+            if "llama" in self.model or "Qwen" in self.model:
                 encoded_cur_text = self.tokenizer(cur_text+" ",
                                                 return_tensors="pt").input_ids.to(self.device)
             else:
@@ -832,7 +852,7 @@ class Evaluator:
             # Setup max lengths
             if "EleutherAI" in self.model:
                 ml = len(encoded_cur_text[0]) + 5
-            elif "llama" in self.model:
+            elif "llama" in self.model or "Qwen" in self.model:
                 ml = len(encoded_cur_text[0]) + 10 
             else:
                 ml = 16
@@ -854,7 +874,7 @@ class Evaluator:
             
             logits = []
             
-            if "llama" in self.model:
+            if "llama" in self.model or "Qwen" in self.model:
                 for label in encoded_cur_labels:
                     masked_label = label.clone()
                     masked_label[0][:len(encoded_cur_text[0])] = torch.tensor(-100*np.ones(len(encoded_cur_text[0])))

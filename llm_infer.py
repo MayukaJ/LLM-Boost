@@ -21,7 +21,7 @@ tasks = [
 
 if 'flan' in args.model:
     model_family = 'flan'
-elif 'llama' in args.model:
+elif 'llama' in args.model or 'Qwen' in args.model:
     model_family = 'llama'
 else:
     print("Invalid model selected for inference")
@@ -35,7 +35,7 @@ evaluator = evaluate.Evaluator(benchmark_path=benchmark_path,
                                 tasks_to_run=tasks,
                                 model=args.model,
                                 encoding_format=model_family,
-                                results_file=model_family+".txt",
+                                results_file=save_name+".txt",
                                 k_shot=args.k_shot,
                                 save_paths=save_paths)
 

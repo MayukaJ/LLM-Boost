@@ -16,6 +16,8 @@ from tabpfn import TabPFNClassifier
 import lightgbm as lgb
 import openml
 import math
+# from CAAFE.caafe import data
+# from CAAFE.caafe.preprocessing import make_datasets_numeric
 
 N_CLASSES = 2
 
@@ -382,7 +384,7 @@ def load_tabular_data(data_paths, train_size=-1, test_size=-1, num_exp=1, cv_fol
 
 
 def load_tabpfn_data(data_paths, train_size=-1, test_size=-1, num_exp=1, cv_folds=5,
-                      stratified=False, val_size=0.2, stack=False, use_oml=False, data_id=None, seed=0):
+                      stratified=False, val_size=0.2, stack=False, use_oml=False, use_caafe=False, data_id=None, seed=0):
     """Load tabular data."""
     if use_oml:
         dataset = openml.datasets.get_dataset(data_id)
@@ -391,6 +393,13 @@ def load_tabpfn_data(data_paths, train_size=-1, test_size=-1, num_exp=1, cv_fold
         target_name = col_names[-1]
         # d = {True: 'c', False: 'q'}
         # cat_ind = [d[i] for i in cat_ind[:-1]]
+    elif use_caafe:
+        # cc_test_datasets_multiclass = data.load_all_data()
+        # ds = cc_test_datasets_multiclass[data_id]
+        # ds, train_x, test_x, _, _ = data.get_data_split(ds, seed=seed)
+        # target_name = ds[4][-1]
+        assert False, "Not implemented yet."
+        
     else:
         train_path = os.path.join(data_paths[0], "train.csv")
         test_path = os.path.join(data_paths[0], "test.csv")
