@@ -7,7 +7,7 @@ from sklearn.metrics import f1_score, accuracy_score, roc_auc_score
 import xgboost as xgb
 # from XGBscale.training import train as xgb_train
 # from XGBscale.core import DMatrix as xgb_DMatrix
-from xgboost import XGBRegressor, XGBClassifier
+# from xgboost import XGBRegressor, XGBClassifier
 from XGBscale.utils import scale_update, scale_train
 xgb.train = scale_train
 xgb.core.Booster.update = scale_update

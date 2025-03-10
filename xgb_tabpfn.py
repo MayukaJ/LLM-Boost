@@ -6,7 +6,10 @@ from sklearn.metrics import f1_score, accuracy_score, roc_auc_score
 import scipy.special
 from sklearn.preprocessing import OneHotEncoder
 import xgboost as xgb
-from xgboost import XGBRegressor, XGBClassifier
+# from xgboost import XGBRegressor, XGBClassifier
+from XGBscale.utils import scale_update, scale_train
+xgb.train = scale_train
+xgb.core.Booster.update = scale_update
 import random
 from typing import Tuple, Optional
 from llm_boost_utils import load_tabpfn_data, softprob_obj, predict, merror, append_line_to_csv
